@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ===== ACTIVE NAV LINK =====
     const sections = document.querySelectorAll('[id]');
-    const allNavLinks = document.querySelectorAll('.nav-links a');
+    const allNavLinks = document.querySelectorAll('.nav-links a, .bottom-nav-item');
 
     window.addEventListener('scroll', () => {
         let current = '';
@@ -134,7 +134,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         allNavLinks.forEach(link => {
             link.style.color = '';
+            link.classList.remove('active');
             if (link.getAttribute('href') === '#' + current) {
+                link.classList.add('active');
                 link.style.color = '#c9a96e';
             }
         });
