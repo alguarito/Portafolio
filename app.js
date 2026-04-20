@@ -17,10 +17,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     navToggle.addEventListener('click', () => {
         navLinks.classList.toggle('active');
+        navToggle.classList.toggle('open');
     });
 
     navLinks.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => navLinks.classList.remove('active'));
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+            navToggle.classList.remove('open');
+        });
     });
 
     // ===== SCROLL REVEAL =====
