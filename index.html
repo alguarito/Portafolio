@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Álvaro Cárdenas — Innovación Educativa con Sentido Humano</title>
+    <meta name="description" content="Portafolio de Servicios del Dr. Álvaro Cárdenas Orozco. Consultoría en IA educativa, mentoría académica, diseño curricular STEM+ y proyectos de impacto internacional.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .icon-svg { width: 32px; height: 32px; stroke: var(--accent); stroke-width: 1.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+        .icon-svg-sm { width: 20px; height: 20px; stroke: var(--accent); stroke-width: 1.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+        .icon-svg-lg { width: 40px; height: 40px; stroke: var(--accent); stroke-width: 1.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+        .why-card .icon-svg-lg { width: 36px; height: 36px; margin-bottom: 16px; }
+        .service-icon { margin-bottom: 20px; }
+        .package-icon { margin-bottom: 16px; }
+        .contact-item-icon { display: flex; align-items: center; justify-content: center; }
+        .contact-item-icon .icon-svg-sm { stroke: var(--accent); }
+        .wa-float svg { width: 28px; height: 28px; fill: white; stroke: none; }
+    </style>
+</head>
+<body>
+
+    <!-- WHATSAPP FLOTANTE -->
+    <a href="https://wa.me/573206324740?text=Hola%20Dr.%20%C3%81lvaro%2C%20vi%20su%20portafolio%20y%20me%20gustar%C3%ADa%20conocer%20sus%20servicios." class="wa-float" target="_blank" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="white"/>
+            <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z" fill="white"/>
+        </svg>
+    </a>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="nav" id="mainNav">
+        <div class="nav-logo">Dr. Cárdenas<span>.</span></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#metodo">Método</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#paquetes">Paquetes</a></li>
+            <li><a href="#trayectoria">Trayectoria</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Menú">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Portafolio de Servicios</p>
+                <h1 class="hero-name">Dr. Álvaro<br>Cárdenas</h1>
+                <p class="hero-tagline">Innovación Educativa con Sentido Humano. No vendo tecnología — transformo instituciones educativas a través de ella.</p>
+                <div class="hero-cta-group">
+                    <a href="https://wa.me/573206324740?text=Hola%20Dr.%20%C3%81lvaro%2C%20quiero%20agendar%20una%20consulta." class="btn-primary" target="_blank">Agendar Consulta →</a>
+                    <a href="#servicios" class="btn-secondary">Ver Servicios</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">14+</div>
+                        <div class="stat-label">Años Docencia Secundaria</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">7+</div>
+                        <div class="stat-label">Años Docencia Posgrado</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-label">Proyectos Asesorados</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="profile.jpg" alt="Dr. Álvaro Cárdenas Orozco" class="hero-image">
+                <div class="hero-image-accent"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TRUST BAR ========== -->
+    <div class="trust-bar">
+        <div class="trust-inner">
+            <span class="trust-item">NASA — IASC</span>
+            <span class="trust-item">Samsung</span>
+            <span class="trust-item">UTP</span>
+            <span class="trust-item">Programa Ondas</span>
+            <span class="trust-item">UNIMINUTO</span>
+            <span class="trust-item">SENA</span>
+            <span class="trust-item">Club Rotario</span>
+        </div>
+    </div>
+
+    <!-- ========== SERVICIOS ========== -->
+    <div class="section" id="servicios">
+        <div class="section-header reveal">
+            <p class="section-label">01 — Servicios</p>
+            <h2 class="section-title">¿Cómo puedo ayudarte?</h2>
+            <p class="section-subtitle">Cuatro líneas de servicio diseñadas para transformar la realidad educativa de tu institución.</p>
+        </div>
+        <div class="services-grid">
+            <!-- Servicio 1 -->
+            <div class="service-card reveal" id="svc1">
+                <div class="service-icon"><svg class="icon-svg-lg" viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7v1H3v-1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"/><rect x="3" y="15" width="18" height="5" rx="2"/><line x1="7" y1="18" x2="7" y2="18"/><line x1="17" y1="18" x2="17" y2="18"/></svg></div>
+                <div class="service-title">Inteligencia Artificial para el Aula</div>
+                <div class="service-desc">Transformo la práctica docente y administrativa mediante el uso ético y productivo de la IA. Tu equipo dejará de temerle a la tecnología y empezará a potenciar su labor con ella.</div>
+                <button class="service-toggle" onclick="toggleService('svc1')">
+                    Ver detalles <span class="service-toggle-icon">▼</span>
+                </button>
+                <div class="service-details">
+                    <div class="service-detail-item">Talleres de IA Generativa: Capacitación práctica en Ingeniería de Prompts para docentes y directivos.</div>
+                    <div class="service-detail-item">Automatización Pedagógica: Evaluaciones, rúbricas y planeadores automáticos.</div>
+                    <div class="service-detail-item">Ética y Políticas de IA: Diseño de lineamientos institucionales para el uso de IA en el aula.</div>
+                    <a href="https://wa.me/573206324740?text=Hola%20Dr.%20%C3%81lvaro%2C%20me%20interesa%20el%20servicio%20de%20IA%20para%20el%20Aula." class="service-cta" target="_blank">Solicitar información →</a>
+                </div>
+            </div>
+            <!-- Servicio 2 -->
+            <div class="service-card reveal" id="svc2">
+                <div class="service-icon"><svg class="icon-svg-lg" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.657 2.686 3 6 3s6-1.343 6-3v-5"/></svg></div>
+                <div class="service-title">Mentoría Académica & Investigación</div>
+                <div class="service-desc">Acompañamiento para que tu tesis no se quede en el cajón, tu semillero cobre vida y tu carrera académica dé el salto que necesita.</div>
+                <button class="service-toggle" onclick="toggleService('svc2')">
+                    Ver detalles <span class="service-toggle-icon">▼</span>
+                </button>
+                <div class="service-details">
+                    <div class="service-detail-item">Dirección de Proyectos de Grado y Tesis: Asesoría metodológica para pregrado, maestría y doctorado.</div>
+                    <div class="service-detail-item">Seminarios y Conferencias: Ponencias sobre Ecosistemas STEM+, futuro de la docencia y pensamiento computacional.</div>
+                    <div class="service-detail-item">Mentoría para Semilleros: Estructuración de grupos de investigación con estándares internacionales.</div>
+                    <a href="https://wa.me/573206324740?text=Hola%20Dr.%20%C3%81lvaro%2C%20me%20interesa%20la%20mentor%C3%ADa%20acad%C3%A9mica." class="service-cta" target="_blank">Solicitar información →</a>
+                </div>
+            </div>
+            <!-- Servicio 3 -->
+            <div class="service-card reveal" id="svc3">
+                <div class="service-icon"><svg class="icon-svg-lg" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+                <div class="service-title">Diseño Curricular & Editorial</div>
+                <div class="service-desc">Producción de material educativo y currículos que realmente funcionan: con rigor técnico, visión pedagógica y estándares de publicación.</div>
+                <button class="service-toggle" onclick="toggleService('svc3')">
+                    Ver detalles <span class="service-toggle-icon">▼</span>
+                </button>
+                <div class="service-details">
+                    <div class="service-detail-item">Diseño Editorial en LaTeX: Guías, módulos y libros de texto con estándares internacionales.</div>
+                    <div class="service-detail-item">Currículos STEM+: Mallas curriculares que integran robótica, programación y ciencia ciudadana.</div>
+                    <div class="service-detail-item">Recursos Digitales a Medida: Contenido para plataformas E-learning con base en neuroeducación.</div>
+                    <a href="https://wa.me/573206324740?text=Hola%20Dr.%20%C3%81lvaro%2C%20necesito%20dise%C3%B1o%20curricular." class="service-cta" target="_blank">Solicitar información →</a>
+                </div>
+            </div>
+            <!-- Servicio 4 -->
+            <div class="service-card reveal" id="svc4">
+                <div class="service-icon"><svg class="icon-svg-lg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+                <div class="service-title">Proyectos de Impacto Internacional</div>
+                <div class="service-desc">¿Quieres llevar a tus estudiantes a competir con NASA o Samsung? Diseño y lidero programas que transforman tu institución en referente de innovación.</div>
+                <button class="service-toggle" onclick="toggleService('svc4')">
+                    Ver detalles <span class="service-toggle-icon">▼</span>
+                </button>
+                <div class="service-details">
+                    <div class="service-detail-item">Clubes de Ciencias: Implementación de programas NASA-IASC y retos de innovación.</div>
+                    <div class="service-detail-item">Asesoría en Convocatorias: Preparación de proyectos para Solve for Tomorrow y similares.</div>
+                    <div class="service-detail-item">Laboratorios de Robótica: Consultoría técnica en hardware, software y despliegue de aulas STEAM.</div>
+                    <a href="https://wa.me/573206324740?text=Hola%20Dr.%20%C3%81lvaro%2C%20me%20interesan%20los%20proyectos%20internacionales." class="service-cta" target="_blank">Solicitar información →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== MÉTRICAS ========== -->
+    <div class="metrics-bar">
+        <div class="metric">
+            <div class="metric-number" data-target="14">0</div>
+            <div class="metric-label">Años en Aula</div>
+        </div>
+        <div class="metric">
+            <div class="metric-number" data-target="7">0</div>
+            <div class="metric-label">Años en Posgrado</div>
+        </div>
+        <div class="metric">
+            <div class="metric-number" data-target="200">0</div>
+            <div class="metric-label">Proyectos</div>
+        </div>
+        <div class="metric">
+            <div class="metric-number" data-target="9">0</div>
+            <div class="metric-label">Campañas NASA</div>
+        </div>
+        <div class="metric">
+            <div class="metric-number" data-target="3">0</div>
+            <div class="metric-label">Finales Samsung</div>
+        </div>
+    </div>
+
+    <!-- ========== MÉTODO C.R.E.A. ========== -->
+    <div class="section" id="metodo">
+        <div class="section-header center reveal">
+            <p class="section-label">02 — Metodología</p>
+            <h2 class="section-title">Método C.R.E.A.</h2>
+            <p class="section-subtitle">Un proceso probado para transformar tu realidad educativa de manera sistemática y sostenible.</p>
+        </div>
+        <div class="method-grid reveal">
+            <div class="method-step">
+                <div class="method-letter">C</div>
+                <div class="method-word">Contexto</div>
+                <div class="method-desc">Diagnosticamos tu realidad institucional, tus recursos y tus desafíos específicos.</div>
+            </div>
+            <div class="method-step">
+                <div class="method-letter">R</div>
+                <div class="method-word">Ruta</div>
+                <div class="method-desc">Diseñamos la estrategia a medida con objetivos claros y entregables concretos.</div>
+            </div>
+            <div class="method-step">
+                <div class="method-letter">E</div>
+                <div class="method-word">Ejecución</div>
+                <div class="method-desc">Implementamos con acompañamiento continuo. No te dejamos solo con un PDF.</div>
+            </div>
+            <div class="method-step">
+                <div class="method-letter">A</div>
+                <div class="method-word">Ampliación</div>
+                <div class="method-desc">Medimos resultados, ajustamos y escalamos el impacto a toda la institución.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== TESTIMONIOS ========== -->
+    <div class="section-alt" id="testimonios">
+        <div class="section-wrap">
+            <div class="section-header center reveal">
+                <p class="section-label">03 — Voces Reales</p>
+                <h2 class="section-title">Lo que dicen quienes han trabajado conmigo</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-quote">"</div>
+                    <div class="testimonial-text">Sin su acompañamiento no habría ganado la convocatoria SHE IS.</div>
+                    <div class="testimonial-author">Luisa Barrera Villamil</div>
+                    <div class="testimonial-role">Actual intercambista en Brasil · Egresada del semillero y acompañamiento del Club Rotario Cartago</div>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-quote">"</div>
+                    <div class="testimonial-text">Sin su acompañamiento no habría logrado obtener el segundo lugar en la feria de ciencias municipal con el proyecto HopeLine Connect.</div>
+                    <div class="testimonial-author">Tomás Molina Giraldo</div>
+                    <div class="testimonial-role">Estudiante de grado noveno · IE Sor María Juliana</div>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-quote">"</div>
+                    <div class="testimonial-text">Sin su liderazgo, no seríamos nodo de pensamiento computacional.</div>
+                    <div class="testimonial-author">Gloria Esperanza Peña Collazos</div>
+                    <div class="testimonial-role">Rectora · Institución Educativa Sor María Juliana</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== PAQUETES ========== -->
+    <div class="section" id="paquetes">
+        <div class="section-header center reveal">
+            <p class="section-label">04 — Paquetes</p>
+            <h2 class="section-title">Elige tu nivel de transformación</h2>
+            <p class="section-subtitle">Tres niveles de compromiso diseñados para diferentes necesidades y alcances.</p>
+        </div>
+        <div class="packages-grid">
+            <div class="package-card reveal">
+                <div class="package-icon"><svg class="icon-svg" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+                <div class="package-name">Impulso</div>
+                <div class="package-desc">Ideal para jornadas pedagógicas y semanas institucionales.</div>
+                <ul class="package-features">
+                    <li>Taller presencial o virtual (4–8 horas)</li>
+                    <li>Material digital de apoyo</li>
+                    <li>Certificado de participación</li>
+                    <li>Temas: IA, STEM, Computación</li>
+                </ul>
+                <a href="https://wa.me/573206324740?text=Hola%20Dr.%20%C3%81lvaro%2C%20me%20interesa%20el%20paquete%20Impulso." class="package-cta" target="_blank">Cotizar Impulso →</a>
+            </div>
+            <div class="package-card featured reveal">
+                <div class="package-icon"><svg class="icon-svg" viewBox="0 0 24 24"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg></div>
+                <div class="package-name">Transformación</div>
+                <div class="package-desc">Para instituciones que quieren un cambio profundo y sostenible.</div>
+                <ul class="package-features">
+                    <li>Programa de 1 a 3 meses</li>
+                    <li>Diagnóstico institucional (Método C.R.E.A.)</li>
+                    <li>Capacitación + Diseño curricular</li>
+                    <li>Acompañamiento y seguimiento</li>
+                    <li>Informe de impacto</li>
+                </ul>
+                <a href="https://wa.me/573206324740?text=Hola%20Dr.%20%C3%81lvaro%2C%20me%20interesa%20el%20paquete%20Transformaci%C3%B3n." class="package-cta" target="_blank">Cotizar Transformación →</a>
+            </div>
+            <div class="package-card reveal">
+                <div class="package-icon"><svg class="icon-svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+                <div class="package-name">Alianza Estratégica</div>
+                <div class="package-desc">Acompañamiento anual para secretarías y universidades.</div>
+                <ul class="package-features">
+                    <li>Programa anual integral</li>
+                    <li>Todo Transformación incluido</li>
+                    <li>Mentoría de semilleros</li>
+                    <li>Proyectos internacionales (NASA, Samsung)</li>
+                    <li>Representación institucional</li>
+                </ul>
+                <a href="https://wa.me/573206324740?text=Hola%20Dr.%20%C3%81lvaro%2C%20me%20interesa%20la%20Alianza%20Estrat%C3%A9gica." class="package-cta" target="_blank">Cotizar Alianza →</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== POR QUÉ ELEGIRME ========== -->
+    <div class="section-alt">
+        <div class="section-wrap">
+            <div class="section-header center reveal">
+                <p class="section-label">05 — Diferencial</p>
+                <h2 class="section-title">¿Por qué trabajar conmigo?</h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card reveal">
+                    <div class="why-icon"><svg class="icon-svg-lg" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div>
+                    <div class="why-title">Respaldo Académico</div>
+                    <div class="why-desc">Formación doctoral que garantiza los fundamentos pedagógicos más sólidos del mercado.</div>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon"><svg class="icon-svg-lg" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+                    <div class="why-title">Experiencia Técnica</div>
+                    <div class="why-desc">Ingeniero de sistemas. Las soluciones no son teóricas — están diseñadas para funcionar.</div>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon"><svg class="icon-svg-lg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+                    <div class="why-title">Visión Global</div>
+                    <div class="why-desc">Colaborador NASA-IASC. Finalista Samsung. Ponente internacional. Conexiones que potencian tu proyecto.</div>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon"><svg class="icon-svg-lg" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+                    <div class="why-title">Enfoque en el Ser</div>
+                    <div class="why-desc">La tecnología es el medio; el desarrollo humano es el fin. Cada proyecto comienza por las personas.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== TRAYECTORIA (CV) ========== -->
+    <div class="section" id="trayectoria">
+        <div class="section-header reveal">
+            <p class="section-label">06 — Trayectoria</p>
+            <h2 class="section-title">Formación & Experiencia</h2>
+            <p class="section-subtitle">El recorrido profesional que respalda cada uno de mis servicios.</p>
+        </div>
+        <div class="cv-grid">
+            <div class="cv-column reveal">
+                <h3>Formación Académica</h3>
+                <div class="cv-item">
+                    <div class="cv-date">2018 — 2024</div>
+                    <div class="cv-role">Doctorado en Ciencias de la Educación</div>
+                    <div class="cv-org">Universidad Cuauhtémoc, México — Convalidado</div>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-date">2013 — 2016</div>
+                    <div class="cv-role">Maestría en Gestión de la Tecnología Educativa</div>
+                    <div class="cv-org">Universidad de Santander (UDES)</div>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-date">2013 — 2014</div>
+                    <div class="cv-role">Esp. Administración de la Informática Educativa</div>
+                    <div class="cv-org">Universidad de Santander (UDES)</div>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-date">2006 — 2012</div>
+                    <div class="cv-role">Ingeniería en Sistemas y Computación</div>
+                    <div class="cv-org">Universidad Tecnológica de Pereira (UTP)</div>
+                </div>
+            </div>
+            <div class="cv-column reveal">
+                <h3>Experiencia Profesional</h3>
+                <div class="cv-item">
+                    <div class="cv-date">2018 — Presente</div>
+                    <div class="cv-role">Docente de Maestría y Especialización</div>
+                    <div class="cv-org">Universidad Tecnológica de Pereira (UTP)</div>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-date">2015 — Presente</div>
+                    <div class="cv-role">Docente TIC · Líder de Semilleros</div>
+                    <div class="cv-org">IE Sor María Juliana</div>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-date">2017 — 2022</div>
+                    <div class="cv-role">Docente Universitario de Pregrado</div>
+                    <div class="cv-org">Universidad Remington</div>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-date">2012 — 2016</div>
+                    <div class="cv-role">Director de Proyectos</div>
+                    <div class="cv-org">Qltura& S.A.S. · A Cuadrado Soluciones SAS</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== CONTACTO ========== -->
+    <div class="section-alt" id="contacto">
+        <div class="section-wrap">
+            <div class="section-header reveal">
+                <p class="section-label">07 — Conectemos</p>
+                <h2 class="section-title">Contacto</h2>
+            </div>
+            <div class="contact-layout">
+                <div class="contact-info reveal">
+                    <h3>¿Listo para transformar tu institución?</h3>
+                    <p>Escríbeme directamente por WhatsApp o correo. Respondo en menos de 24 horas.</p>
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><svg class="icon-svg-sm" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+                        <div>
+                            <div class="contact-item-label">WhatsApp</div>
+                            <div class="contact-item-text"><a href="https://wa.me/573206324740?text=Hola%20Dr.%20%C3%81lvaro%2C%20vi%20su%20portafolio." target="_blank">+57 320 632 4740 — Escríbeme</a></div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><svg class="icon-svg-sm" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+                        <div>
+                            <div class="contact-item-label">Email</div>
+                            <div class="contact-item-text">alvaro.cardenas.orozco@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><svg class="icon-svg-sm" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                        <div>
+                            <div class="contact-item-label">Ubicación</div>
+                            <div class="contact-item-text">Cartago, Valle del Cauca, Colombia</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-memberships reveal">
+                    <h4>Membresías & Colectivos Activos</h4>
+                    <span class="membership-tag">Club de Rotarios Pedro Morales Pino</span>
+                    <span class="membership-tag">Colectivo Ecosistemas Digitales</span>
+                    <span class="membership-tag">Semillero CIR Sormatronik</span>
+                    <span class="membership-tag">Semillero Betelgeuse</span>
+                    <span class="membership-tag">Nodo de Pensamiento Computacional</span>
+                    <span class="membership-tag">CEID — SUTEV</span>
+                    <span class="membership-tag">Programa Ondas Valle</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <p class="footer-tagline">"La tecnología es el medio; el desarrollo humano es el fin."</p>
+        <p>© 2026 Dr. Álvaro Cárdenas Orozco — Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
