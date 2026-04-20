@@ -10,7 +10,7 @@
     --off-white: #fafafa;
     --light-gray: #f2f2f2;
     --border-gray: #e5e5e5;
-    --mid-gray: #999999;
+    --mid-gray: #7a7a7a; /* Oscurecido para mayor contraste */
     --dark-gray: #555555;
     --charcoal: #2a2a2a;
     --black: #111111;
@@ -508,7 +508,7 @@ a { color: inherit; text-decoration: none; }
     gap: 6px;
     background: none;
     border: none;
-    padding: 0;
+    padding: 8px 0; /* Mayor área de contacto (tap target) */
     margin-top: 12px;
     font-family: var(--font-sans);
 }
@@ -1086,8 +1086,8 @@ a { color: inherit; text-decoration: none; }
     .hero-cta-group a { width: 100%; text-align: center; justify-content: center; }
     .nav-links a { font-size: 1.2rem; padding: 10px 0; display: block; }
     .mobile-bottom-nav { display: flex; }
-    .wa-float { bottom: 90px; right: 20px; } /* Move up over the bottom nav */
-    .footer { padding-bottom: 100px; } /* Prevent footer text from hiding behind nav */
+    .wa-float { display: none; } /* Ocultar en móvil dado que ya hay botón en el dock */
+    .footer { padding-bottom: 120px; } /* Evita que el dock tape el contenido final */
 }
 
 /* Scrollbar */
