@@ -15,6 +15,7 @@ Docente de posgrado en la Universidad Tecnológica de Pereira desde 2018 y docen
 ## Páginas
 
 - [Sitio principal](https://alvarocardenasorozco.com/): servicios, resultados, testimonios, libros y contacto.
+- [Soportes](https://alvarocardenasorozco.com/soportes.html): títulos, reconocimientos, ponencias y formación, con los certificados que los respaldan.
 - [Hoja de vida](https://alvarocardenasorozco.com/hoja-de-vida.html): formación, experiencia, publicaciones y reconocimientos. También en [PDF](https://alvarocardenasorozco.com/hoja-de-vida-alvaro-cardenas.pdf).
 
 ## Colección MILC (Sor María Juliana Ediciones, 2026)
@@ -26,6 +27,8 @@ Docente de posgrado en la Universidad Tecnológica de Pereira desde 2018 y docen
 - [No Rendir la Mirada](https://doi.org/10.5281/zenodo.21517630): Tomo IV, sobre inteligencia artificial, datos y soberanía tecnológica.
 - [El Lugar de Llegar a Ser](https://doi.org/10.5281/zenodo.21654100): Tomo V.
 - [La colección completa en Zenodo](https://zenodo.org/communities/coleccion-milc/records).
+
+Ponencia más reciente: «Soberanía, Ética y STEAM Frugal: el Modelo MILC ante los desafíos de la transmodernidad», II Congreso Internacional de Investigación en Ciencias de la Educación, UNAD, Valledupar, mayo de 2026.
 
 Artículo arbitrado: [Modelo de investigación liberadora y científica (MILC): una propuesta para la educación en la era onlife](https://doi.org/10.63862/rhs-v1n3-56-77-2026), Revista Hambatu Science, 2026.
 
