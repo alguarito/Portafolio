@@ -1,0 +1,37 @@
+# Álvaro Cárdenas Orozco
+
+> PhD en Ciencias de la Educación, Magíster en Gestión de la Tecnología Educativa e Ingeniero de Sistemas y Computación. Vive en Cartago (Valle del Cauca, Colombia). Forma docentes e instituciones para usar la inteligencia artificial sin renunciar al criterio pedagógico. Autor de la Colección MILC (Modelo de Investigación Liberadora y Científica), seis libros en acceso abierto con DOI.
+
+Docente de posgrado en la Universidad Tecnológica de Pereira desde 2018 y docente de Tecnología e Informática en la I.E. Sor María Juliana de Cartago desde 2015, donde lidera los semilleros CirSormatronik y Betelgeuse. Par Experto de Colombia Programa (MinTIC y British Council), 2024-2026. En Solve for Tomorrow 2025 (Samsung), cuatro equipos de sus semilleros quedaron entre los 100 mejores del país entre 2.330 propuestas; Ecobotica llegó a los 50 seleccionados. Participa desde 2021 en las campañas de ciencia ciudadana de la IASC (NASA).
+
+## Servicios
+
+- Formación docente en IA: talleres y diplomados para planear, evaluar y proteger datos con IA. A cargo del Módulo 9 del Diplomado en IA de la UTP.
+- Conferencias: IA en la escuela, Educación 4.0 y el modelo MILC.
+- Asesoría en investigación educativa: trabajos de grado y proyectos, de la pregunta a la publicación.
+- Semilleros STEM+: robótica, pensamiento computacional y mentoría para ferias y convocatorias.
+- Plataformas educativas: recursos digitales a la medida; ConectaTE reúne 180 guías, 18 proyectos y 18 exámenes.
+
+## Páginas
+
+- [Sitio principal](https://alguarito.github.io/Portafolio/): servicios, resultados, testimonios, libros y contacto.
+- [Hoja de vida](https://alguarito.github.io/Portafolio/hoja-de-vida.html): formación, experiencia, publicaciones y reconocimientos. También en [PDF](https://alguarito.github.io/Portafolio/hoja-de-vida-alvaro-cardenas.pdf).
+
+## Colección MILC (Sor María Juliana Ediciones, 2026)
+
+- [Educación en la Era Onlife — MILC](https://doi.org/10.5281/zenodo.20517707): obra matriz.
+- [El Mercado de la Atención](https://doi.org/10.5281/zenodo.20644819): Tomo I.
+- [Pedagogía de la Querencia](https://doi.org/10.5281/zenodo.21176768): Tomo II.
+- [El Niño que Sueña Ciencia](https://doi.org/10.5281/zenodo.21360910): Tomo III.
+- [No Rendir la Mirada](https://doi.org/10.5281/zenodo.21517630): Tomo IV, sobre inteligencia artificial, datos y soberanía tecnológica.
+- [El Lugar de Llegar a Ser](https://doi.org/10.5281/zenodo.21654100): Tomo V.
+- [La colección completa en Zenodo](https://zenodo.org/communities/coleccion-milc/records).
+
+Artículo arbitrado: [Modelo de investigación liberadora y científica (MILC): una propuesta para la educación en la era onlife](https://doi.org/10.63862/rhs-v1n3-56-77-2026), Revista Hambatu Science, 2026.
+
+## Contacto
+
+- Correo: alvaro.cardenas.orozco@gmail.com
+- Agenda: https://calendly.com/alvaro-cardenas-orozco/30min
+- ORCID: https://orcid.org/0000-0003-1820-301X
+- LinkedIn: https://www.linkedin.com/in/alvaro-c-a9176926
