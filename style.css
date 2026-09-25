@@ -206,6 +206,7 @@ ul { padding: 0; list-style: none; }
 /* ---------- Pie ---------- */
 .footer { margin-top: 96px; padding: 28px 80px 44px 0; border-top: 1px solid var(--line); display: flex; justify-content: space-between; gap: 12px; font-size: 14px; color: var(--ink-2); }
 .footer a { color: var(--ink-2); }
+.footer-links { display: flex; flex-wrap: wrap; gap: 8px 20px; }
 
 /* ---------- WhatsApp flotante ---------- */
 .wa-float {
