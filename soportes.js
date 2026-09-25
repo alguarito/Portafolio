@@ -22,11 +22,11 @@
     const show = (i) => {
         index = (i + group.length) % group.length;
         const doc = group[index];
-        const t = doc.querySelector('.doc-title').textContent;
+        const t = doc.dataset.title;
         img.src = doc.dataset.full;
         img.alt = 'Certificado: ' + t;
         title.textContent = t;
-        entity.textContent = doc.querySelector('.doc-entity').textContent + ' · ' + doc.querySelector('.doc-year').textContent;
+        entity.textContent = doc.dataset.meta;
         count.textContent = (index + 1) + ' de ' + group.length;
         const single = group.length < 2;
         prev.hidden = single;
