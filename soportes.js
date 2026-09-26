@@ -1,12 +1,14 @@
 // ============================================
-// Visor de soportes: abre un certificado y
-// permite recorrer los de su misma categoría
+// Visor de soportes: cada botón abre el grupo
+// de certificados que respalda ese ítem
 // ============================================
 
 (function () {
     const dialog = document.getElementById('viewer');
-    if (!dialog || typeof dialog.showModal !== 'function') return;
+    const dataEl = document.getElementById('soportes-data');
+    if (!dialog || !dataEl || typeof dialog.showModal !== 'function') return;
 
+    const GROUPS = JSON.parse(dataEl.textContent);
     const img = document.getElementById('viewerImg');
     const title = document.getElementById('viewerTitle');
     const entity = document.getElementById('viewerEntity');
@@ -15,29 +17,28 @@
     const next = document.getElementById('viewerNext');
     const close = document.getElementById('viewerClose');
 
-    let group = [];
+    let group = null;
     let index = 0;
     let opener = null;
 
     const show = (i) => {
-        index = (i + group.length) % group.length;
-        const doc = group[index];
-        const t = doc.dataset.title;
-        img.src = doc.dataset.full;
-        img.alt = 'Certificado: ' + t;
-        title.textContent = t;
-        entity.textContent = doc.dataset.meta;
-        count.textContent = (index + 1) + ' de ' + group.length;
-        const single = group.length < 2;
-        prev.hidden = single;
-        next.hidden = single;
+        const n = group.s.length;
+        index = (i + n) % n;
+        img.src = 'assets/soportes/' + group.s[index] + '.jpg';
+        img.alt = 'Certificado: ' + group.t;
+        title.textContent = group.t;
+        entity.textContent = group.m;
+        count.textContent = n > 1 ? (index + 1) + ' de ' + n : '';
+        prev.hidden = n < 2;
+        next.hidden = n < 2;
     };
 
-    document.querySelectorAll('.doc').forEach((doc) => {
-        doc.addEventListener('click', () => {
-            group = [...document.querySelectorAll('.doc[data-cat="' + doc.dataset.cat + '"]')];
-            opener = doc;
-            show(group.indexOf(doc));
+    document.querySelectorAll('[data-group]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+            group = GROUPS[btn.dataset.group];
+            if (!group) return;
+            opener = btn;
+            show(0);
             dialog.showModal();
         });
     });
@@ -48,6 +49,7 @@
 
     // Flechas del teclado solo mientras el visor está abierto
     dialog.addEventListener('keydown', (e) => {
+        if (!group || group.s.length < 2) return;
         if (e.key === 'ArrowLeft') { e.preventDefault(); show(index - 1); }
         if (e.key === 'ArrowRight') { e.preventDefault(); show(index + 1); }
     });
@@ -61,7 +63,7 @@
     let startX = null;
     dialog.addEventListener('touchstart', (e) => { startX = e.touches[0].clientX; }, { passive: true });
     dialog.addEventListener('touchend', (e) => {
-        if (startX === null) return;
+        if (startX === null || !group || group.s.length < 2) return;
         const dx = e.changedTouches[0].clientX - startX;
         if (Math.abs(dx) > 50) show(index + (dx < 0 ? 1 : -1));
         startX = null;

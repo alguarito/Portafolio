@@ -464,3 +464,17 @@ ul { padding: 0; list-style: none; }
 @media (prefers-reduced-motion: reduce) {
   .s-stats a, .rc-img img, .doctor-img img, .tl-doc svg { transition: none; }
 }
+
+/* Botón «Ver certificado» en listas y tarjetas */
+.v-btn, .fo-btn { align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; min-height: 40px; margin-top: 6px; padding: 0 14px; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--ink); font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; transition: background-color .2s, border-color .2s; }
+.v-btn:hover, .fo-btn:hover { background: var(--accent); border-color: var(--accent); }
+.fo-accent .fo-btn { border-color: var(--ink); }
+.fo-accent .fo-btn:hover { background: var(--paper); border-color: var(--paper); }
+.fo-ink .fo-btn { color: var(--on-ink); border-color: var(--ink-2); }
+.fo-ink .fo-btn:hover { color: var(--ink); }
+.fo { position: relative; }
+.fo > .fo-btn { margin-top: auto; }
+.tl-doc { background: none; border: 0; padding: 0; color: var(--ink); }
+.doc { position: relative; }
+.doc-count { position: absolute; top: 12px; right: 12px; padding: 4px 10px; border-radius: 999px; background: var(--ink); color: var(--on-ink); font-size: 12px; }
+.dps li .v-btn { margin-top: auto; }
