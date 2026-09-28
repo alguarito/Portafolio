@@ -28,6 +28,15 @@ Docente de posgrado en la Universidad Tecnológica de Pereira desde 2018 y docen
 - [Soportes](https://alvarocardenasorozco.com/soportes.html): títulos, reconocimientos, ponencias y formación, con los certificados que los respaldan.
 - [Hoja de vida](https://alvarocardenasorozco.com/hoja-de-vida.html): formación, experiencia, publicaciones y reconocimientos. También en [PDF](https://alvarocardenasorozco.com/hoja-de-vida-alvaro-cardenas.pdf).
 
+## Servicios en detalle
+
+- [Formación docente en IA](https://alvarocardenasorozco.com/formacion-docente-ia.html): talleres, cursos y módulos de capacitación en inteligencia artificial para docentes (Módulo 9 del Diplomado en IA de la UTP, Escritura Inversa, El Plano del Minimalismo Digital).
+- [Educación STEM y STEAM](https://alvarocardenasorozco.com/educacion-stem-steam.html): semilleros de investigación, robótica educativa, pensamiento computacional, ciencia ciudadana y preparación para Samsung Solve for Tomorrow.
+- [Desarrollo a medida](https://alvarocardenasorozco.com/desarrollo-a-medida.html): plataformas educativas, aplicaciones web que funcionan sin conexión, automatización de documentos y asistentes con IA.
+- [Diseño editorial](https://alvarocardenasorozco.com/diseno-editorial.html): maquetación de libros y revistas, identidad visual, informes institucionales, corrección de estilo y publicación con DOI.
+- [Asesoría de tesis](https://alvarocardenasorozco.com/asesoria-de-tesis.html): dirección y asesoría de tesis y trabajos de grado, y corrección de estilo de proyectos de grado.
+- [Conferencias](https://alvarocardenasorozco.com/conferencias.html): conferencias y ponencias sobre IA en la escuela, educación STEAM, Educación 4.0 y el modelo MILC.
+
 ## Colección MILC (Sor María Juliana Ediciones, 2026)
 
 - [Educación en la Era Onlife — MILC](https://doi.org/10.5281/zenodo.20517707): obra matriz.
