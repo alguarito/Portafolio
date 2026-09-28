@@ -569,3 +569,19 @@ ul { padding: 0; list-style: none; }
 .area-link:hover { background: var(--accent); color: var(--ink); border-color: var(--accent); }
 .area-accent .area-link:hover { background: var(--paper); border-color: var(--paper); }
 @media (max-width: 1080px) { .areas { grid-template-columns: minmax(0, 1fr); } }
+
+/* ======================================================
+   Galería de diseño
+   ====================================================== */
+.dz-txt { margin-top: 20px; max-width: 760px; font-size: 18px; line-height: 1.55; color: var(--ink-2); }
+.cs-dark .dz-txt { color: var(--on-ink-2); }
+.dz-strip { margin-top: 32px; display: flex; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 10px; }
+.dz-page { flex: 0 0 auto; padding: 0; border: 0; background: none; cursor: zoom-in; scroll-snap-align: start; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 24px rgba(17, 19, 18, .16); transition: transform .35s var(--ease); }
+.dz-page:hover { transform: translateY(-4px); }
+.dz-page img { display: block; height: 380px; width: auto; }
+.dz-wide .dz-page img { height: 300px; }
+@media (max-width: 680px) {
+  .dz-page img { height: 260px; }
+  .dz-wide .dz-page img { height: 180px; }
+}
+@media (prefers-reduced-motion: reduce) { .dz-page { transition: none; } }

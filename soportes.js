@@ -24,8 +24,8 @@
     const show = (i) => {
         const n = group.s.length;
         index = (i + n) % n;
-        img.src = 'assets/soportes/' + group.s[index] + '.jpg';
-        img.alt = 'Certificado: ' + group.t;
+        img.src = 'assets/' + (group.d || 'soportes') + '/' + group.s[index] + '.jpg';
+        img.alt = (group.d ? 'Página de ' : 'Certificado: ') + group.t;
         title.textContent = group.t;
         entity.textContent = group.m;
         count.textContent = n > 1 ? (index + 1) + ' de ' + n : '';
@@ -38,7 +38,7 @@
             group = GROUPS[btn.dataset.group];
             if (!group) return;
             opener = btn;
-            show(0);
+            show(parseInt(btn.dataset.i || '0', 10));
             dialog.showModal();
         });
     });
