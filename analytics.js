@@ -63,7 +63,9 @@
         if (!a) return;
         var href = a.getAttribute('href') || '';
         var label = (a.getAttribute('aria-label') || a.textContent || '').trim().slice(0, 100);
-        if (href.indexOf('calendly.com') > -1) gtag('event', 'agendar_conversacion', { ubicacion: label });
+        if (a.dataset && a.dataset.share) gtag('event', 'compartir_articulo', { red: a.dataset.share, pagina: location.pathname });
+        else if (a.hasAttribute('data-fb-post')) gtag('event', 'opinar_facebook', { pagina: location.pathname });
+        else if (href.indexOf('calendly.com') > -1) gtag('event', 'agendar_conversacion', { ubicacion: label });
         else if (href.indexOf('wa.me') > -1) gtag('event', 'contacto_whatsapp', { ubicacion: label });
         else if (href.indexOf('mailto:') === 0) gtag('event', 'contacto_correo');
         else if (href.indexOf('.pdf') > -1) gtag('event', 'descargar_hoja_de_vida');

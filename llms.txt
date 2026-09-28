@@ -37,6 +37,9 @@ Docente de posgrado en la Universidad Tecnológica de Pereira desde 2018 y docen
 - [Asesoría de tesis](https://alvarocardenasorozco.com/asesoria-de-tesis.html): dirección y asesoría de tesis y trabajos de grado, y corrección de estilo de proyectos de grado.
 - [Conferencias](https://alvarocardenasorozco.com/conferencias.html): conferencias y ponencias sobre IA en la escuela, educación STEAM, Educación 4.0 y el modelo MILC.
 
+<!-- articulos:inicio -->
+<!-- articulos:fin -->
+
 ## Colección MILC (Sor María Juliana Ediciones, 2026)
 
 - [Educación en la Era Onlife — MILC](https://doi.org/10.5281/zenodo.20517707): obra matriz.

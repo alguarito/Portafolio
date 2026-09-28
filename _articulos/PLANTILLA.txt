@@ -1,0 +1,20 @@
+---
+titulo: Título del artículo (idealmente con la palabra clave al inicio, máximo 65 caracteres)
+fecha: AAAA-MM-DD
+descripcion: Resumen de 120 a 155 caracteres que aparece en Google y al compartir.
+palabras_clave: frase clave principal, frase secundaria, otra
+servicio: formacion-docente-ia | educacion-stem-steam | desarrollo-a-medida | diseno-editorial | asesoria-de-tesis | conferencias
+imagen: _articulos/img/<slug>.jpg
+imagen_alt: Descripción de lo que muestra la imagen
+facebook: enlace a la publicación en Facebook (opcional; se agrega después)
+---
+Primer párrafo: plantea el problema y responde rápido de qué trata.
+
+## Primer subtítulo con una pregunta o idea clave
+
+Texto. **negrita**, *cursiva*, [enlace](https://...).
+
+- Viñeta
+- Viñeta
+
+> Una frase para destacar.

@@ -1,0 +1,9 @@
+Artículos del sitio
+===================
+
+- Cada artículo es un archivo <slug>.md en esta carpeta; el nombre del archivo es la dirección:
+  como-usar-ia-en-el-aula.md -> alvarocardenasorozco.com/articulos/como-usar-ia-en-el-aula.html
+- El formato está en PLANTILLA.txt. La imagen original va en img/.
+- Para publicar: python3 _herramientas/articulos.py, y luego commit y push.
+- Con «borrador: si» en el encabezado el artículo no se publica.
+- Las carpetas que empiezan por «_» no se publican en GitHub Pages.
