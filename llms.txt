@@ -40,6 +40,7 @@ Docente de posgrado en la Universidad Tecnológica de Pereira desde 2018 y docen
 <!-- articulos:inicio -->
 ## Artículos
 
+- [Colombia, las Américas y el mundo en 2026: educación y brechas](https://alvarocardenasorozco.com/articulos/colombia-americas-mundo-2026.html): Una lectura actualizada de Colombia frente a la educación, desigualdad, democracia, migración, paz, comercio y cambio climático en 2026.
 - [Política educativa en Latinoamérica: pospandemia, IA y humanidad](https://alvarocardenasorozco.com/articulos/politica-educativa-ia-pospandemia.html): Globalización, pruebas estandarizadas e inteligencia artificial: tendencias de la política educativa en Latinoamérica tras la pandemia.
 
 <!-- articulos:fin -->

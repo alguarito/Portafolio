@@ -2,6 +2,7 @@
 titulo: Título del artículo, tal como lo quiere el autor (es el H1)
 titulo_seo: Versión para Google y redes, con la palabra clave al inicio, máximo 65 caracteres (opcional)
 fecha: AAAA-MM-DD
+bajada: Entradilla más larga bajo el título (opcional; si falta se usa la descripción)
 descripcion: Resumen de 120 a 155 caracteres que aparece en Google y al compartir.
 palabras_clave: frase clave principal, frase secundaria, otra
 servicio: formacion-docente-ia | educacion-stem-steam | desarrollo-a-medida | diseno-editorial | asesoria-de-tesis | conferencias

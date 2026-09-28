@@ -293,7 +293,7 @@ def pagina_articulo(a, nav, tail, otros):
     out += f'  <nav class="mono muted sv-crumbs" aria-label="Ruta"><a href="/">Inicio</a> / <a href="/articulos/">Artículos</a></nav>\n'
     if a.get('servicio'):
         out += f'  <a class="chip mono ar-tag" href="/{a["servicio"]}.html">{esc(SERVICIOS[a["servicio"]])}</a>\n'
-    out += f'  <h1>{inline(a["titulo"])}</h1>\n  <p class="ar-lead">{esc(a["descripcion"])}</p>\n'
+    out += f'  <h1>{inline(a["titulo"])}</h1>\n  <p class="ar-lead">{inline(a.get("bajada") or a["descripcion"])}</p>\n'
     out += (f'  <p class="mono muted ar-meta">Por <a href="/#sobre-mi">Dr. Álvaro Cárdenas Orozco</a> · '
             f'<time datetime="{a["fecha_d"].isoformat()}">{fecha_larga(a["fecha_d"])}</time> · {a["lectura"]} min de lectura</p>\n')
     out += '</header>\n'
