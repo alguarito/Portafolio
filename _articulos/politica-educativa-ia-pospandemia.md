@@ -6,7 +6,7 @@ descripcion: Globalización, pruebas estandarizadas e inteligencia artificial: t
 palabras_clave: política educativa, tendencias educativas internacionales, inteligencia artificial en la educación, educación pospandemia, educación en Latinoamérica, brecha digital, pruebas PISA
 servicio: formacion-docente-ia
 imagen: _articulos/img/politica-educativa-ia-pospandemia.jpg
-imagen_alt: Pintura al óleo de un cerebro con forma de planeta Tierra, rodeado de redes y conexiones, con el texto «IA y humanidad: aprendiendo juntos»
+imagen_alt: Pintura de estudiantes que suben por un camino fragmentado hacia una escuela luminosa, bajo una red de conexiones que envuelve el mapa de América Latina
 ---
 ## Introducción
 
