@@ -644,3 +644,8 @@ ul { padding: 0; list-style: none; }
   .teams .yr { min-width: 48px; font-size: 12px; }
   .teams .chip { font-size: 11px; }
 }
+@media (max-width: 640px) {
+  .teams li { flex-wrap: wrap; justify-content: flex-start; row-gap: 8px; }
+  .teams li > span:first-child { white-space: nowrap; }
+  .teams li .chip { margin-left: 48px; }
+}
