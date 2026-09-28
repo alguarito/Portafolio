@@ -721,3 +721,4 @@ ul { padding: 0; list-style: none; }
 .footer-svc { flex-basis: 100%; display: flex; flex-wrap: wrap; gap: 8px 20px; padding-bottom: 14px; margin-bottom: 4px; border-bottom: 1px solid var(--line); }
 .footer-svc a { font-weight: 600; color: var(--ink); }
 .area-list a { color: inherit; }
+.s-hero > p.sv-kick { font-size: 13px; line-height: 1.5; color: var(--muted); }
