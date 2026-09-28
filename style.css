@@ -635,3 +635,6 @@ ul { padding: 0; list-style: none; }
   .section-head a.link-strong { white-space: normal; }
 }
 @media (prefers-reduced-motion: reduce) { .wk, .wk-img img, .wk-go { transition: none; } }
+
+/* Resultados por año */
+.teams .yr { display: inline-block; min-width: 64px; font-size: 14px; font-weight: 400; color: var(--on-ink-2); }
