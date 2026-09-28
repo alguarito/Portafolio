@@ -6,7 +6,7 @@ Docente de posgrado en la Universidad Tecnológica de Pereira desde 2018 y docen
 
 ## Áreas de trabajo
 
-- Educación e investigación: formación docente en IA, conferencias, asesoría en investigación, semilleros STEM+ y currículo.
+- Educación e investigación: formación docente en IA, conferencias, dirección y asesoría de tesis, corrección de estilo de proyectos de grado, semilleros STEM+ y currículo.
 - Desarrollo a medida: plataformas web con cuentas e informes (ConectaTE), aplicaciones que funcionan sin internet, automatización de documentos (ConciencIA: 30 protocolos y 124 plantillas) y sitios web.
 - Diseño a medida: identidad visual y sistemas de diseño, diseño editorial (seis libros de la Colección MILC), diseño de sitios e interfaces.
 - Inteligencia artificial aplicada: asistentes con IA sobre normas propias, visión por computador en el propio equipo, desarrollo de software con agentes de IA (304 cambios revisados en ConectaTE) y visibilidad en asistentes de IA.
@@ -15,7 +15,8 @@ Docente de posgrado en la Universidad Tecnológica de Pereira desde 2018 y docen
 
 - Formación docente en IA: talleres y diplomados para planear, evaluar y proteger datos con IA. A cargo del Módulo 9 del Diplomado en IA de la UTP.
 - Conferencias: IA en la escuela, Educación 4.0 y el modelo MILC.
-- Asesoría en investigación educativa: trabajos de grado y proyectos, de la pregunta a la publicación.
+- Dirección y asesoría de tesis: 17 tesis de posgrado acompañadas; trabajos de grado y proyectos de investigación educativa, de la pregunta a la publicación.
+- Corrección de estilo de proyectos de grado: redacción, coherencia, ortografía y normas de citación en tesis, trabajos de grado y artículos.
 - Semilleros STEM+: robótica, pensamiento computacional y mentoría para ferias y convocatorias.
 - Plataformas educativas: recursos digitales a la medida; ConectaTE reúne 180 guías, 18 proyectos y 18 exámenes.
 
