@@ -152,6 +152,9 @@ def leer(ruta):
     a['cuerpo'], a['heads'], a['palabras'] = markdown(a['cuerpo_md'])
     a['lectura'] = max(1, round(a['palabras'] / 200))
     a['url'] = f'{BASE}/articulos/{a["slug"]}.html'
+    a['titulo_seo'] = a.get('titulo_seo') or a['titulo']
+    if len(a['titulo_seo']) > 65:
+        print(f'  aviso: el título para buscadores de {a["slug"]} tiene {len(a["titulo_seo"])} caracteres; conviene «titulo_seo» de hasta 65')
     return a
 
 
@@ -169,7 +172,7 @@ def imagen(a):
     og = p('assets', 'articulos', a['slug'] + '-og.jpg')
     if not os.path.exists(dst) or os.path.getmtime(src) > os.path.getmtime(dst):
         sw, sh = dims(src)
-        cmd = ['sips', '-s', 'format', 'jpeg', '-s', 'formatOptions', '80']
+        cmd = ['sips', '-s', 'format', 'jpeg', '-s', 'formatOptions', '72']
         if max(sw, sh) > 1600:
             cmd += ['-Z', '1600']  # solo reduce, nunca agranda
         run(cmd + [src, '--out', dst])
@@ -179,7 +182,7 @@ def imagen(a):
             run(['sips', '--resampleHeight', '630', dst, '--out', tmp])
         else:
             run(['sips', '--resampleWidth', '1200', dst, '--out', tmp])
-        run(['sips', '-c', '630', '1200', '-s', 'formatOptions', '80', tmp, '--out', og])
+        run(['sips', '-c', '630', '1200', '-s', 'formatOptions', '72', tmp, '--out', og])
         os.remove(tmp)
     a['img'] = f'/assets/articulos/{a["slug"]}.jpg'
     a['og'] = f'/assets/articulos/{a["slug"]}-og.jpg'
@@ -264,7 +267,7 @@ def compartir(a):
 
 def pagina_articulo(a, nav, tail, otros):
     ld = {'@context': 'https://schema.org', '@graph': [
-        {'@type': 'BlogPosting', '@id': a['url'] + '#articulo', 'headline': a['titulo'],
+        {'@type': 'BlogPosting', '@id': a['url'] + '#articulo', 'headline': a['titulo_seo'], 'name': a['titulo'],
          'description': a['descripcion'], 'url': a['url'], 'mainEntityOfPage': a['url'],
          'datePublished': a['fecha_d'].isoformat(), 'dateModified': a['actualizado_d'].isoformat(),
          'inLanguage': 'es-CO', 'wordCount': a['palabras'],
@@ -285,7 +288,7 @@ def pagina_articulo(a, nav, tail, otros):
              f'<meta property="article:author" content="{FB_PAGE}">\n'
              + ''.join(f'<meta property="article:tag" content="{esc(k)}">\n' for k in a['claves']))
     og_img = a['og'] or '/assets/og.jpg'
-    out = head(f'{a["titulo"]} | Álvaro Cárdenas Orozco', a['descripcion'], a['url'], og_img, 'article', ld, extra)
+    out = head(f'{a["titulo_seo"]} | Álvaro Cárdenas Orozco', a['descripcion'], a['url'], og_img, 'article', ld, extra)
     out += nav + '\n<main>\n<article class="ar">\n<header class="ar-head">\n'
     out += f'  <nav class="mono muted sv-crumbs" aria-label="Ruta"><a href="/">Inicio</a> / <a href="/articulos/">Artículos</a></nav>\n'
     if a.get('servicio'):
@@ -447,7 +450,7 @@ def main():
     # llms.txt
     ll = ''
     if arts:
-        ll = '\n## Artículos\n\n' + ''.join(f'- [{a["titulo"]}]({a["url"]}): {a["descripcion"]}\n' for a in arts[:15]) + '\n'
+        ll = '\n## Artículos\n\n' + ''.join(f'- [{a["titulo_seo"]}]({a["url"]}): {a["descripcion"]}\n' for a in arts[:15]) + '\n'
     reemplazar_entre(p('llms.txt'), '<!-- articulos:inicio -->', '<!-- articulos:fin -->', ll or '\n')
 
     # portada

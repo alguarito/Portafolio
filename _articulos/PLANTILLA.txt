@@ -1,5 +1,6 @@
 ---
-titulo: Título del artículo (idealmente con la palabra clave al inicio, máximo 65 caracteres)
+titulo: Título del artículo, tal como lo quiere el autor (es el H1)
+titulo_seo: Versión para Google y redes, con la palabra clave al inicio, máximo 65 caracteres (opcional)
 fecha: AAAA-MM-DD
 descripcion: Resumen de 120 a 155 caracteres que aparece en Google y al compartir.
 palabras_clave: frase clave principal, frase secundaria, otra

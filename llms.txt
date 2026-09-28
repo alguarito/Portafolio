@@ -38,6 +38,10 @@ Docente de posgrado en la Universidad Tecnológica de Pereira desde 2018 y docen
 - [Conferencias](https://alvarocardenasorozco.com/conferencias.html): conferencias y ponencias sobre IA en la escuela, educación STEAM, Educación 4.0 y el modelo MILC.
 
 <!-- articulos:inicio -->
+## Artículos
+
+- [Política educativa en Latinoamérica: pospandemia, IA y humanidad](https://alvarocardenasorozco.com/articulos/politica-educativa-ia-pospandemia.html): Globalización, pruebas estandarizadas e inteligencia artificial: tendencias de la política educativa en Latinoamérica tras la pandemia.
+
 <!-- articulos:fin -->
 
 ## Colección MILC (Sor María Juliana Ediciones, 2026)
