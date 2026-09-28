@@ -722,3 +722,11 @@ ul { padding: 0; list-style: none; }
 .footer-svc a { font-weight: 600; color: var(--ink); }
 .area-list a { color: inherit; }
 .s-hero > p.sv-kick { font-size: 13px; line-height: 1.5; color: var(--muted); }
+
+/* Aviso de cookies */
+.cookie-bar { position: fixed; left: 16px; right: 88px; bottom: 16px; z-index: 40; max-width: 640px; display: flex; align-items: center; gap: 16px 24px; flex-wrap: wrap; padding: 18px 20px; border-radius: 20px; background: var(--paper); box-shadow: 0 12px 36px rgba(17, 19, 18, .18); }
+.cookie-bar p { flex: 1 1 280px; margin: 0; font-size: 15px; line-height: 1.45; color: var(--ink-2); }
+.cookie-actions { display: flex; gap: 8px; }
+.cookie-actions .btn { height: 44px; padding: 0 18px; font-size: 15px; }
+@media (max-width: 680px) { .cookie-bar { right: 16px; bottom: 84px; } }
+@media print { .cookie-bar { display: none !important; } }

@@ -67,7 +67,15 @@ html, body { margin: 0; background: #e2e1db; font-family: 'Instrument Sans', sys
 .p3 .cv{font-variant-numeric:tabular-nums;font-weight:600}
 .p3 .tr{height:8px;background:#e2e1db;border-radius:999px;margin-top:5px;overflow:hidden}
 .p3 .ev{font-size:12px;color:#555b58;line-height:1.35;margin-top:4px}
+.cookie-bar { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 40; max-width: 640px; display: flex; align-items: center; gap: 16px 24px; flex-wrap: wrap; padding: 18px 20px; border-radius: 20px; background: #fff; box-shadow: 0 12px 36px rgba(17,19,18,.18); font-family: 'Instrument Sans', system-ui, sans-serif; }
+.cookie-bar p { flex: 1 1 280px; margin: 0; font-size: 15px; line-height: 1.45; color: #3d4240; }
+.cookie-actions { display: flex; gap: 8px; }
+.cookie-actions .btn { display: inline-flex; align-items: center; height: 44px; padding: 0 18px; border-radius: 999px; font: inherit; font-size: 15px; font-weight: 600; cursor: pointer; }
+.cookie-actions .btn-ink { background: #111312; color: #fff; border: 0; }
+.cookie-actions .btn-line { background: transparent; color: #111312; border: 1px solid #b9bcb8; }
+@media print { .cookie-bar { display: none !important; } }
 </style>
+<script src="analytics.js" defer></script>
 </head>
 <body>
 <div class="bar">
