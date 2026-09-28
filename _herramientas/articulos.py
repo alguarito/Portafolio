@@ -60,6 +60,10 @@ def inline(t):
     return t
 
 
+def strip(t):
+    return re.sub(r'[*_]', '', t)
+
+
 def link(text, href):
     ext = href.startswith('http') and not href.startswith(BASE)
     extra = ' target="_blank" rel="noopener"' if ext else ''
@@ -276,6 +280,8 @@ def pagina_articulo(a, nav, tail, otros):
          **({'keywords': a['claves']} if a['claves'] else {}),
          **({'articleSection': SERVICIOS[a['servicio']]} if a.get('servicio') else {}),
          **({'discussionUrl': a['facebook']} if a.get('facebook') else {}),
+         **({'isBasedOn': {'@type': 'Book', 'name': strip(a['libro_titulo']), 'url': a['libro_url'],
+                           'author': {'@id': BASE + '/#persona'}}} if a.get('libro_url') else {}),
          'isPartOf': {'@id': BASE + '/articulos/#blog'}},
         {'@type': 'BreadcrumbList', 'itemListElement': [
             {'@type': 'ListItem', 'position': 1, 'name': 'Inicio', 'item': BASE + '/'},
@@ -296,6 +302,10 @@ def pagina_articulo(a, nav, tail, otros):
     out += f'  <h1>{inline(a["titulo"])}</h1>\n  <p class="ar-lead">{inline(a.get("bajada") or a["descripcion"])}</p>\n'
     out += (f'  <p class="mono muted ar-meta">Por <a href="/#sobre-mi">Dr. Álvaro Cárdenas Orozco</a> · '
             f'<time datetime="{a["fecha_d"].isoformat()}">{fecha_larga(a["fecha_d"])}</time> · {a["lectura"]} min de lectura</p>\n')
+    if a.get('libro_url'):
+        out += (f'  <a class="ar-basis" data-libro href="{a["libro_url"]}" target="_blank" rel="noopener">'
+                f'<span class="mono">Basado en el libro</span><strong>{inline(a["libro_titulo"])}</strong>'
+                f'<span>{esc(a.get("libro_serie", ""))}{" · " if a.get("libro_serie") else ""}Leer gratis en Zenodo →</span></a>\n')
     out += '</header>\n'
     if a['img']:
         out += (f'<figure class="ar-fig"><img src="{a["img"]}" alt="{esc(a.get("imagen_alt") or a["titulo"])}" '
@@ -305,6 +315,15 @@ def pagina_articulo(a, nav, tail, otros):
         out += ('<nav class="ar-toc" aria-label="En este artículo"><span class="mono muted">En este artículo</span><ol>'
                 + ''.join(f'<li><a href="#{i}">{inline(t)}</a></li>' for i, t in a['heads']) + '</ol></nav>\n')
     out += f'<div class="ar-body">\n{a["cuerpo"]}\n</div>\n</div>\n'
+    if a.get('libro_url'):
+        port = (f'<img src="{a["libro_portada"]}" alt="Portada del libro {esc(a["libro_titulo"])}" width="637" height="900" loading="lazy">'
+                if a.get('libro_portada') else '')
+        out += (f'<aside class="ar-book">{port}<div><span class="mono">El libro</span>'
+                f'<h2>{inline(a["libro_titulo"])}</h2>'
+                + (f'<p class="ar-book-sub">{inline(a["libro_subtitulo"])}</p>' if a.get('libro_subtitulo') else '')
+                + (f'<p>{esc(a["libro_serie"])}. Acceso abierto, con licencia CC BY-SA 4.0.</p>' if a.get('libro_serie') else '')
+                + f'<div class="sv-cta"><a class="btn btn-ink" data-libro href="{a["libro_url"]}" target="_blank" rel="noopener">Descargar el libro gratis</a>'
+                f'<a class="btn btn-line" href="https://zenodo.org/communities/coleccion-milc/records" target="_blank" rel="noopener">Ver la colección</a></div></div></aside>\n')
     out += compartir(a) + '\n'
     # Conversación en Facebook
     if a.get('facebook'):

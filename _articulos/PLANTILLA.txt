@@ -20,3 +20,10 @@ Texto. **negrita**, *cursiva*, [enlace](https://...).
 - Viñeta
 
 > Una frase para destacar.
+
+Campos opcionales cuando el artículo se basa en un libro propio (van en el encabezado):
+libro_titulo: El Mercado de la Atención
+libro_subtitulo: Subtítulo del libro
+libro_serie: Colección MILC, Tomo I
+libro_url: https://doi.org/...
+libro_portada: /assets/libros/<archivo>.jpg

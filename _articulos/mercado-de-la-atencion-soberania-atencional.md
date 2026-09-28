@@ -6,12 +6,17 @@ bajada: Antes de que suene el timbre, la atención de muchos jóvenes ya fue con
 descripcion: Qué es la economía de la atención, qué dice la evidencia sin caer en el pánico y cinco prácticas para formar la soberanía atencional en el aula.
 palabras_clave: economía de la atención, soberanía atencional, atención de los estudiantes, celular en el aula, alfabetización mediática, distracción digital, Colección MILC
 servicio: formacion-docente-ia
+libro_titulo: El Mercado de la Atención
+libro_subtitulo: Cómo se disputa la atención de los jóvenes y cómo educar el criterio en la era *onlife*
+libro_serie: Colección MILC, Tomo I
+libro_url: https://doi.org/10.5281/zenodo.20644819
+libro_portada: /assets/libros/mercado-atencion.jpg
 imagen: _articulos/img/mercado-de-la-atencion-soberania-atencional.jpg
 imagen_alt: Pintura de estudiantes y adultos que caminan entre pantallas y relojes hacia una bolsa de valores de la atención bajo una cúpula, con redes que envuelven el mapa de las Américas y un letrero que dice «Mercado de la atención»
 ---
 Cuando le pido a un grupo que guarde el celular durante diez minutos y se limite a observar algo —una hoja, un circuito, el cielo—, casi siempre ocurre lo mismo: a los pocos segundos, varias manos buscan el bolsillo por reflejo, aunque nada haya sonado ni vibrado. No es indisciplina. Es la huella de un entrenamiento. Alguien, en algún lugar, trabajó durante años para que ese reflejo exista, y lo logró con una eficacia que ninguna campaña educativa ha igualado.
 
-De ese gesto trata *El Mercado de la Atención*, el primer tomo de la Colección MILC. Este artículo resume sus ideas centrales y, sobre todo, lo que un docente puede hacer con ellas desde mañana.
+De ese gesto trata [*El Mercado de la Atención*](https://doi.org/10.5281/zenodo.20644819), el primer tomo de la Colección MILC. Este artículo resume sus ideas centrales y, sobre todo, lo que un docente puede hacer con ellas desde mañana.
 
 > Un joven que aprende a mirar su propia mirada empieza a ganar libertad.
 

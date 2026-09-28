@@ -64,6 +64,7 @@
         var href = a.getAttribute('href') || '';
         var label = (a.getAttribute('aria-label') || a.textContent || '').trim().slice(0, 100);
         if (a.dataset && a.dataset.share) gtag('event', 'compartir_articulo', { red: a.dataset.share, pagina: location.pathname });
+        else if (a.hasAttribute('data-libro')) gtag('event', 'abrir_libro', { libro: a.getAttribute('href'), ubicacion: 'articulo' });
         else if (a.hasAttribute('data-fb-post')) gtag('event', 'opinar_facebook', { pagina: location.pathname });
         else if (href.indexOf('calendly.com') > -1) gtag('event', 'agendar_conversacion', { ubicacion: label });
         else if (href.indexOf('wa.me') > -1) gtag('event', 'contacto_whatsapp', { ubicacion: label });
