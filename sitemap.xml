@@ -66,8 +66,16 @@
   <!-- articulos:inicio -->
   <url>
     <loc>https://alvarocardenasorozco.com/articulos/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-09-29</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alvarocardenasorozco.com/articulos/pedagogia-de-la-querencia-arraigo.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <image:image>
+      <image:loc>https://alvarocardenasorozco.com/assets/articulos/pedagogia-de-la-querencia-arraigo.jpg</image:loc>
+    </image:image>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://alvarocardenasorozco.com/articulos/colombia-americas-mundo-2026.html</loc>
