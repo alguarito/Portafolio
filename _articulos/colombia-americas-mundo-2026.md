@@ -5,6 +5,7 @@ fecha: 2026-09-28
 bajada: Diez años después del estudio *Colombia, las Américas y el mundo 2015*, el país es más urbano, conectado y diverso, pero continúa enfrentando profundas brechas educativas, territoriales y económicas. Esta actualización no reemplaza aquella encuesta: confronta sus preguntas con los indicadores oficiales más recientes disponibles en 2026.
 descripcion: Una lectura actualizada de Colombia frente a la educación, desigualdad, democracia, migración, paz, comercio y cambio climático en 2026.
 palabras_clave: Colombia 2026, educación en Colombia, democracia, migración, política exterior, desigualdad, inteligencia artificial, cambio climático
+facebook: https://www.facebook.com/Profe.AlvaroCardenas2021/posts/pfbid0VM8TGAn3G5HBpnVCiQyrTE9dVZFf9fQrGs2CpiQveWyh9m8C7iNg7F3xW6amBTcsl
 servicio: conferencias
 imagen: _articulos/img/colombia-americas-mundo-2026.jpg
 imagen_alt: Pintura de personas de todas las edades que avanzan por un camino hacia una escuela luminosa con cúpula de cristal, bajo una red que conecta el mapa de las Américas, con una paloma y vegetación tropical

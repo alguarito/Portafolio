@@ -4,6 +4,7 @@ titulo_seo: Política educativa en Latinoamérica: pospandemia, IA y humanidad
 fecha: 2026-09-28
 descripcion: Globalización, pruebas estandarizadas e inteligencia artificial: tendencias de la política educativa en Latinoamérica tras la pandemia.
 palabras_clave: política educativa, tendencias educativas internacionales, inteligencia artificial en la educación, educación pospandemia, educación en Latinoamérica, brecha digital, pruebas PISA
+facebook: https://www.facebook.com/share/p/1Pa9HSAR7C/
 servicio: formacion-docente-ia
 imagen: _articulos/img/politica-educativa-ia-pospandemia.jpg
 imagen_alt: Pintura de estudiantes que suben por un camino fragmentado hacia una escuela luminosa, bajo una red de conexiones que envuelve el mapa de América Latina
