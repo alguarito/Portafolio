@@ -6,6 +6,7 @@ bajada: Antes de que suene el timbre, la atención de muchos jóvenes ya fue con
 descripcion: Qué es la economía de la atención, qué dice la evidencia sin caer en el pánico y cinco prácticas para formar la soberanía atencional en el aula.
 palabras_clave: economía de la atención, soberanía atencional, atención de los estudiantes, celular en el aula, alfabetización mediática, distracción digital, Colección MILC
 servicio: formacion-docente-ia
+facebook: https://www.facebook.com/share/p/19hLn7STQo/
 libro_titulo: El Mercado de la Atención
 libro_subtitulo: Cómo se disputa la atención de los jóvenes y cómo educar el criterio en la era *onlife*
 libro_serie: Colección MILC, Tomo I
