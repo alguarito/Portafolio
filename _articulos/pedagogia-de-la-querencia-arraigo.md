@@ -5,6 +5,7 @@ fecha: 2026-09-29
 bajada: El nuevo libro del Dr. Álvaro Cárdenas Orozco propone reconstruir el aula desde el territorio, la memoria y los saberes de la comunidad. Su apuesta central es tan sencilla como transformadora: el arraigo también puede educarse.
 descripcion: Qué es la pedagogía de la querencia, cómo la escuela puede desarraigar sin proponérselo y cuatro herramientas para enseñar desde el territorio.
 palabras_clave: pedagogía de la querencia, arraigo, educación situada, territorio, saberes ancestrales, Enrique Dussel, pedagogía decolonial, cartografía social, Colección MILC
+facebook: https://www.facebook.com/Profe.AlvaroCardenas2021/posts/pfbid02WumnxPwvDS8eUejRKNhxC1cpDKCGPeCAc5hz4JqUr5AeBU1rUS3JAgeSq7shYLHgl
 servicio: conferencias
 imagen: _articulos/img/pedagogia-de-la-querencia-arraigo.jpg
 imagen_alt: Pintura de una maestra, niños, jóvenes y mayores que leen juntos un libro en una colina, con raíces que bajan hacia la tierra entre vasijas, semillas y tejidos, frente a una escuela, un pueblo y un río entre montañas
