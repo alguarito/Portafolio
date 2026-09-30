@@ -1,12 +1,13 @@
 ---
 titulo: El niño que sueña ciencia: cómo darle método a la curiosidad sin apagarla
 titulo_seo: Curiosidad científica en el aula: darle método sin apagarla
-fecha: 2026-09-29
+fecha: 2026-09-30
 bajada: Los niños llegan a la escuela investigando y muchos salen, años después, callados. El Tomo III de la Colección MILC sostiene que la curiosidad no se crea ni se doma: se cultiva, dándole método en el momento en que ella misma lo pide.
 descripcion: Por qué la escuela apaga la curiosidad, cómo darle método sin domarla y tres prácticas para que el aula vuelva a investigar, del Tomo III MILC.
 palabras_clave: curiosidad científica, investigación escolar, semilleros de investigación, pregunta en el aula, educación científica, Paulo Freire, ciencia ciudadana, Colección MILC
 servicio: educacion-stem-steam
-borrador: si
+imagen: _articulos/img/curiosidad-cientifica-en-el-aula.jpg
+imagen_alt: Pintura de un niño que se asoma con asombro a un charco en la tierra agrietada donde se ve una galaxia con símbolos de la ciencia, un átomo, una cadena de ADN, un telescopio y planetas
 libro_titulo: El Niño que Sueña Ciencia
 libro_subtitulo: La curiosidad es natural; la escuela debe darle método al sueño (sin apagarlo)
 libro_serie: Colección MILC, Tomo III
@@ -61,6 +62,8 @@ Para que la curiosidad se vuelva investigación, el libro propone un ritmo de cu
 La parte más sorprendente del libro muestra que el rigor más exigente se vuelve deseable cuando deja de ser una imposición del aula y se convierte en la llave de algo verdadero. Las ferias, las convocatorias, las publicaciones y la ciencia ciudadana prestan ese rigor.
 
 El semillero de astronomía de la institución participó en campañas de la International Astronomical Search Collaboration (IASC), aliada de la NASA: los estudiantes analizan imágenes reales del cielo en busca de asteroides, con el mismo software y el mismo protocolo que usan astrónomos de todo el mundo. En tres campañas, dieciséis estudiantes obtuvieron su certificación. Nadie tuvo que exigirles rigor: para que un posible asteroide contara, había que seguir el protocolo al pie de la letra, y lo hicieron con una disciplina que ningún examen habría logrado. No lo hacían por una nota, sino para participar de verdad en la ciencia.
+
+Las convocatorias cumplen un papel parecido: le ponen a una curiosidad un encuadre, unas fases y una fecha. Con ese molde, los semilleros de la institución llegaron al top 50 nacional de Samsung Solve for Tomorrow en 2024 y en 2025. La condición, insiste el libro, es respetar el orden: primero el sueño, después el molde. Una prueba sencilla para saberlo es preguntarle al estudiante qué haría con su proyecto si no hubiera concurso. Si responde «seguiría investigándolo igual», la convocatoria hizo su trabajo honesto.
 
 ## Tres prácticas para empezar mañana
 
