@@ -30,6 +30,7 @@ Docente de posgrado en la Universidad Tecnológica de Pereira desde 2018 y docen
 
 ## Servicios en detalle
 
+- [Servicios y precios](https://alvarocardenasorozco.com/servicios.html): los ocho servicios con su precio de referencia.
 - [Formación docente en IA](https://alvarocardenasorozco.com/formacion-docente-ia.html): talleres, cursos y módulos de capacitación en inteligencia artificial para docentes (Módulo 9 del Diplomado en IA de la UTP, Escritura Inversa, El Plano del Minimalismo Digital).
 - [Educación STEM y STEAM](https://alvarocardenasorozco.com/educacion-stem-steam.html): semilleros de investigación, robótica educativa, pensamiento computacional, ciencia ciudadana y preparación para Samsung Solve for Tomorrow.
 - [Desarrollo a medida](https://alvarocardenasorozco.com/desarrollo-a-medida.html): plataformas educativas, aplicaciones web que funcionan sin conexión, automatización de documentos y asistentes con IA.

@@ -875,3 +875,16 @@ ul { padding: 0; list-style: none; }
 .fm-res { line-height: 1.5; }
 .fm-basis { margin-top: auto; padding-top: 12px; border-top: 1px solid var(--soft); font-size: 12px; line-height: 1.5; color: var(--muted); }
 @media (max-width: 860px) { .fm-grid { grid-template-columns: minmax(0, 1fr); } }
+
+/* Página de servicios */
+.svx-grid { margin-top: clamp(40px, 5vw, 72px); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--gap); }
+.svx { display: flex; flex-direction: column; gap: 12px; padding: 28px; border-radius: var(--r-md); background: var(--paper); }
+.svx > .mono { color: var(--muted); font-size: 13px; }
+.svx h2 { font-size: 26px; line-height: 1.15; letter-spacing: -0.02em; font-weight: 600; }
+.svx h2 a { color: inherit; text-decoration: none; }
+.svx h2 a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.svx p { line-height: 1.5; color: var(--ink-2); }
+.svx-price { align-self: flex-start; padding: 8px 14px; border-radius: 12px; background: var(--accent); color: var(--ink) !important; font-size: 18px; font-weight: 600; }
+.svx-act { margin-top: auto; padding-top: 8px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+@media (max-width: 760px) { .svx-grid { grid-template-columns: minmax(0, 1fr); } }
+.svc-all { margin-top: 28px; }
