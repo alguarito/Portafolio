@@ -815,3 +815,30 @@ ul { padding: 0; list-style: none; }
 .quote-long blockquote { font-size: clamp(21px, 1.7vw, 26px); line-height: 1.3; }
 .quote-wide.quote-long blockquote { font-size: clamp(22px, 1.9vw, 28px); line-height: 1.28; }
 .quotes { grid-auto-flow: dense; }
+
+/* Tabla de precios */
+.price-wrap { border-radius: var(--r-md); background: var(--paper); overflow: hidden; }
+.price-table { width: 100%; border-collapse: collapse; font-size: 17px; }
+.price-table th, .price-table td { padding: 18px 22px; text-align: left; border-bottom: 1px solid var(--soft); vertical-align: middle; }
+.price-table thead th { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 500; color: var(--muted); background: var(--ground); }
+.price-table tbody tr:last-child th, .price-table tbody tr:last-child td { border-bottom: 0; }
+.price-table tbody th strong { display: block; font-size: 18px; font-weight: 600; }
+.price-table tbody th span { display: block; margin-top: 4px; font-size: 14px; font-weight: 400; color: var(--muted); }
+.price-table td { font-size: 20px; font-weight: 600; letter-spacing: -0.01em; white-space: nowrap; }
+.price-table td:nth-child(2) { background: color-mix(in srgb, var(--accent) 22%, transparent); }
+.price-extra { margin-top: var(--gap); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--gap); }
+.price-extra > div { display: flex; flex-direction: column; gap: 8px; padding: 24px 28px; border-radius: var(--r-md); background: var(--paper); }
+.price-extra .mono { color: var(--muted); font-size: 13px; }
+.price-extra strong { font-size: 24px; letter-spacing: -0.02em; }
+.price-extra span:last-child { color: var(--ink-2); line-height: 1.5; }
+#precios .sv-cta { margin-top: 24px; }
+@media (max-width: 760px) {
+  .price-table thead { display: none; }
+  .price-table, .price-table tbody, .price-table tr, .price-table th, .price-table td { display: block; width: 100%; box-sizing: border-box; }
+  .price-table tr { padding: 18px 20px; border-bottom: 1px solid var(--soft); }
+  .price-table tbody tr:last-child { border-bottom: 0; }
+  .price-table tbody th, .price-table td { padding: 0; border: 0; }
+  .price-table td { display: flex; justify-content: space-between; margin-top: 10px; font-size: 18px; background: none !important; }
+  .price-table td::before { content: attr(data-l); font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 400; color: var(--muted); }
+  .price-extra { grid-template-columns: minmax(0, 1fr); }
+}
