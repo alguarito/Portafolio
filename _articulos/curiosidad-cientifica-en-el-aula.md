@@ -5,6 +5,7 @@ fecha: 2026-09-30
 bajada: Los niños llegan a la escuela investigando y muchos salen, años después, callados. El Tomo III de la Colección MILC sostiene que la curiosidad no se crea ni se doma: se cultiva, dándole método en el momento en que ella misma lo pide.
 descripcion: Por qué la escuela apaga la curiosidad, cómo darle método sin domarla y tres prácticas para que el aula vuelva a investigar, del Tomo III MILC.
 palabras_clave: curiosidad científica, investigación escolar, semilleros de investigación, pregunta en el aula, educación científica, Paulo Freire, ciencia ciudadana, Colección MILC
+facebook: https://www.facebook.com/share/p/1GqzfzacwR/
 servicio: educacion-stem-steam
 imagen: _articulos/img/curiosidad-cientifica-en-el-aula.jpg
 imagen_alt: Pintura de un niño que se asoma con asombro a un charco en la tierra agrietada donde se ve una galaxia con símbolos de la ciencia, un átomo, una cadena de ADN, un telescopio y planetas
