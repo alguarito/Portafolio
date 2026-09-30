@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Página no encontrada | Álvaro Cárdenas Orozco</title>
+<title>Verificar constancia | Álvaro Cárdenas Orozco</title>
 <meta name="robots" content="noindex">
 <meta name="author" content="Álvaro Cárdenas Orozco">
 <meta name="theme-color" content="#f1f0ec">
@@ -37,11 +37,14 @@
 
 <main class="nf">
 <header class="s-hero">
-  <div class="mono muted">Error 404</div>
-  <h1>Esta página <span class="it">cambió de lugar.</span></h1>
-  <p>El sitio se renovó y algunas direcciones antiguas ya no existen. Estas son las secciones principales:</p>
-  <nav class="svc-strip" aria-label="Secciones"><a href="/">Inicio</a><a href="/casos.html">Casos</a><a href="/formacion-docente-ia.html">Formación docente en IA</a><a href="/educacion-stem-steam.html">Educación STEM y STEAM</a><a href="/desarrollo-a-medida.html">Desarrollo a medida</a><a href="/diseno-editorial.html">Diseño editorial</a><a href="/asesoria-de-tesis.html">Asesoría de tesis</a><a href="/conferencias.html">Conferencias</a><a href="/clases-personalizadas.html">Clases personalizadas</a><a href="/ia-creativa.html">IA creativa</a><a href="/hoja-de-vida.html">Hoja de vida</a></nav>
-  <div class="sv-cta"><a class="btn btn-ink" href="/">Ir al inicio</a></div>
+  <div class="mono muted">Constancias de participación</div>
+  <h1>Verificar <span class="it">una constancia.</span></h1>
+  <p>Escriba el código que aparece en la constancia (por ejemplo, AC-7K2M9QXP) o escanee su código QR.</p>
+  <form class="vf-form" id="vfForm" autocomplete="off">
+    <label for="vfCode" class="mono muted">Código</label>
+    <div class="vf-row"><input id="vfCode" name="c" type="text" inputmode="text" placeholder="AC-XXXXXXXX" maxlength="11" required><button class="btn btn-ink" type="submit">Verificar</button></div>
+  </form>
+  <div id="vfOut" class="vf-out" aria-live="polite"></div>
 </header>
 </main>
 
@@ -62,5 +65,28 @@
 </a>
 
 <script src="/app.js"></script>
+<script>
+(function () {
+  var form = document.getElementById('vfForm'), input = document.getElementById('vfCode'), out = document.getElementById('vfOut');
+  function esc(t) { return String(t || '').replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function check(code) {
+    code = (code || '').trim().toUpperCase();
+    if (!/^AC-[A-Z0-9]{8}$/.test(code)) { out.className = 'vf-out vf-bad'; out.innerHTML = '<strong>Código no válido.</strong><span>Revise que tenga la forma AC- seguida de 8 letras o números.</span>'; return; }
+    out.className = 'vf-out'; out.textContent = 'Verificando…';
+    fetch('/constancias/' + code + '.json', {cache: 'no-store'}).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) {
+      out.className = 'vf-out vf-ok';
+      out.innerHTML = '<span class="mono">✓ Constancia auténtica · ' + esc(d.codigo) + '</span><strong>' + esc(d.nombre) + '</strong>' +
+        '<span>participó en <em>' + esc(d.curso) + '</em>, ' + esc(d.horas) + ' horas, ' + esc(d.periodo) + ', modalidad ' + esc(d.modalidad) +
+        (d.institucion ? ', dirigido a ' + esc(d.institucion) : '') + '.' + (d.aval ? ' Con el aval de ' + esc(d.aval) + '.' : '') + '</span>' +
+        '<span class="mono">Emitida el ' + esc(d.emitida) + ' por ' + esc(d.emisor) + '</span>';
+    }).catch(function () {
+      out.className = 'vf-out vf-bad'; out.innerHTML = '<strong>No encontramos esa constancia.</strong><span>Revise el código. Si el problema continúa, escriba a alvaro.cardenas.orozco@gmail.com.</span>';
+    });
+  }
+  form.addEventListener('submit', function (e) { e.preventDefault(); history.replaceState(null, '', '?c=' + encodeURIComponent(input.value.trim().toUpperCase())); check(input.value); });
+  var c = new URLSearchParams(location.search).get('c'); if (c) { input.value = c; check(c); }
+})();
+</script>
+
 </body>
 </html>

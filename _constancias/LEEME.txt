@@ -1,0 +1,11 @@
+Constancias de participación verificables
+=========================================
+
+1. Copie PLANTILLA.csv con el nombre del curso, por ejemplo taller-ia-colegio-x-2026.csv,
+   y llene una fila por participante (fechas en formato AAAA-MM-DD). Deje «codigo» vacío.
+   Incluya solo a quienes aceptaron que su constancia se pueda verificar en línea.
+   Nunca ponga números de documento.
+2. Ejecute:  python3 _herramientas/constancias.py _constancias/<archivo>.csv
+3. Los PDF quedan en _constancias/salida/<curso>/ (esta carpeta no se publica).
+4. Publique los registros:  git add constancias/ && git commit && git push
+   Cada constancia se verifica en https://alvarocardenasorozco.com/verificar.html?c=CODIGO

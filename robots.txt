@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /constancias/
 
 Sitemap: https://alvarocardenasorozco.com/sitemap.xml

@@ -843,3 +843,20 @@ ul { padding: 0; list-style: none; }
   .price-extra { grid-template-columns: minmax(0, 1fr); }
 }
 .ar-rss { margin-top: 16px; font-size: 13px; line-height: 1.5; max-width: 560px; } .sv-cta button.btn { font: inherit; font-weight: 600; cursor: pointer; }
+.price-2 td { width: 1%; white-space: nowrap; text-align: right; }
+.price-2 thead th:last-child { text-align: right; }
+
+/* Verificación de constancias */
+.vf-form { margin-top: 32px; max-width: 560px; }
+.vf-row { margin-top: 8px; display: flex; gap: 10px; flex-wrap: wrap; }
+.vf-row input { flex: 1 1 220px; min-height: 54px; padding: 0 20px; border: 1px solid var(--line); border-radius: 999px; background: var(--paper); font: 500 18px 'JetBrains Mono', monospace; text-transform: uppercase; color: var(--ink); }
+.vf-row input:focus { outline: 2px solid var(--accent); border-color: var(--ink); }
+.vf-row button { font: inherit; font-weight: 600; cursor: pointer; border: 0; }
+.vf-out { margin-top: 24px; max-width: 640px; display: flex; flex-direction: column; gap: 8px; }
+.vf-out:empty { display: none; }
+.vf-ok, .vf-bad { padding: 24px 28px; border-radius: var(--r-md); }
+.vf-ok { background: var(--accent); }
+.vf-ok strong { font-size: 28px; letter-spacing: -0.02em; }
+.vf-bad { background: var(--paper); border-left: 4px solid #c0392b; }
+.vf-bad strong { font-size: 20px; }
+.vf-out span { line-height: 1.5; }
