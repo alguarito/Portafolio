@@ -294,7 +294,10 @@ def pagina_articulo(a, nav, tail, otros):
              f'<meta property="article:author" content="{FB_PAGE}">\n'
              + ''.join(f'<meta property="article:tag" content="{esc(k)}">\n' for k in a['claves']))
     og_img = a['og'] or '/assets/og.jpg'
-    out = head(f'{a["titulo_seo"]} | Álvaro Cárdenas Orozco', a['descripcion'], a['url'], og_img, 'article', ld, extra)
+    titulo_pag = f'{a["titulo_seo"]} | Álvaro Cárdenas Orozco'
+    if len(titulo_pag) > 65:  # Google corta cerca de 60-65; el nombre ya va en og:site_name y en el autor
+        titulo_pag = a['titulo_seo']
+    out = head(titulo_pag, a['descripcion'], a['url'], og_img, 'article', ld, extra)
     out += nav + '\n<main>\n<article class="ar">\n<header class="ar-head">\n'
     out += f'  <nav class="mono muted sv-crumbs" aria-label="Ruta"><a href="/">Inicio</a> / <a href="/articulos/">Artículos</a></nav>\n'
     if a.get('servicio'):
@@ -367,7 +370,7 @@ def pagina_listado(arts, nav, tail):
          'description': desc, 'inLanguage': 'es-CO', 'author': {'@id': BASE + '/#persona'},
          'blogPost': [{'@id': a['url'] + '#articulo'} for a in arts]},
         {'@type': 'Person', '@id': BASE + '/#persona', 'name': 'Álvaro Cárdenas Orozco', 'url': BASE + '/'}]}
-    out = head('Artículos | Álvaro Cárdenas Orozco: IA, educación y tecnología', desc, url, '/assets/og.jpg', 'website', ld,
+    out = head('Artículos sobre IA y educación | Álvaro Cárdenas Orozco', desc, url, '/assets/og.jpg', 'website', ld,
                '' if arts else '<meta name="robots" content="noindex">\n')
     out += nav + '\n<main>\n<header class="s-hero">\n'
     out += '  <nav class="mono muted sv-crumbs" aria-label="Ruta"><a href="/">Inicio</a> / <span>Artículos</span></nav>\n'
