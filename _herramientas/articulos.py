@@ -377,7 +377,9 @@ def pagina_listado(arts, nav, tail):
     out += '  <nav class="mono muted sv-crumbs" aria-label="Ruta"><a href="/">Inicio</a> / <span>Artículos</span></nav>\n'
     out += '  <h1>Artículos sobre IA, <span class="it">educación y tecnología.</span></h1>\n'
     out += '  <p>Ideas, métodos y casos del aula y del taller: inteligencia artificial en la educación, educación STEM y STEAM, desarrollo a medida y diseño editorial.</p>\n'
-    out += f'  <div class="sv-cta"><a class="btn btn-line" href="/feed.xml">Suscribirse por RSS</a><a class="btn btn-line" href="{FB_PAGE}" target="_blank" rel="noopener">Seguir en Facebook</a></div>\n</header>\n'
+    out += (f'  <div class="sv-cta"><a class="btn btn-ink" href="{FB_PAGE}" target="_blank" rel="noopener">Seguir en Facebook</a>'
+            f'<button type="button" class="btn btn-line" data-share="copiar" data-url="{BASE}/feed.xml">Copiar el enlace RSS</button></div>\n'
+            f'  <p class="mono muted ar-rss">¿Usa un lector de noticias como Feedly o Inoreader? Copie el enlace RSS y péguelo allí para recibir cada artículo nuevo.</p>\n</header>\n')
     if arts:
         out += '<section class="ar-list">' + tarjeta(arts[0], 'ar-card ar-card-first') + '<div class="ar-grid">' + ''.join(tarjeta(a) for a in arts[1:]) + '</div></section>\n'
     else:

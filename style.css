@@ -842,3 +842,4 @@ ul { padding: 0; list-style: none; }
   .price-table td::before { content: attr(data-l); font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 400; color: var(--muted); }
   .price-extra { grid-template-columns: minmax(0, 1fr); }
 }
+.ar-rss { margin-top: 16px; font-size: 13px; line-height: 1.5; max-width: 560px; } .sv-cta button.btn { font: inherit; font-weight: 600; cursor: pointer; }

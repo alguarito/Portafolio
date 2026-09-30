@@ -27,7 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // ===== COPIAR ENLACE DE UN ARTÍCULO =====
     document.querySelectorAll('[data-share="copiar"]').forEach(btn => {
         btn.addEventListener('click', () => {
-            const done = () => { btn.textContent = 'Enlace copiado'; setTimeout(() => { btn.textContent = 'Copiar enlace'; }, 2000); };
+            const label = btn.textContent;
+            const done = () => { btn.textContent = 'Enlace copiado'; setTimeout(() => { btn.textContent = label; }, 2000); };
             if (navigator.clipboard) navigator.clipboard.writeText(btn.dataset.url).then(done, () => {});
         });
     });
