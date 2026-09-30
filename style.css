@@ -934,3 +934,6 @@ ul { padding: 0; list-style: none; }
   .cat-n { padding-top: 0; }
   .cat-meta { align-items: flex-start; text-align: left; }
 }
+.cat-soft { background: var(--soft); }
+.cat-soft .cat-desc, .cat-soft .cat-n, .cat-soft .cat-meta .mono { color: var(--ink-2); }
+.cat-soft .svx { background: var(--paper); }
