@@ -326,7 +326,7 @@ def pagina_articulo(a, nav, tail, otros):
         out += (f'<aside class="ar-book">{port}<div><span class="mono">El libro</span>'
                 f'<h2>{inline(a["libro_titulo"])}</h2>'
                 + (f'<p class="ar-book-sub">{inline(a["libro_subtitulo"])}</p>' if a.get('libro_subtitulo') else '')
-                + (f'<p>{esc(a["libro_serie"])}. Acceso abierto, con licencia CC BY-SA 4.0.</p>' if a.get('libro_serie') else '')
+                + (f'<p>{esc(a["libro_serie"])}. Acceso abierto, con licencia {esc(a.get("libro_licencia") or "CC BY-SA 4.0")}.</p>' if a.get('libro_serie') else '')
                 + f'<div class="sv-cta"><a class="btn btn-ink" data-libro href="{a["libro_url"]}" target="_blank" rel="noopener">Descargar el libro gratis</a>'
                 f'<a class="btn btn-line" href="https://zenodo.org/communities/coleccion-milc/records" target="_blank" rel="noopener">Ver la colección</a></div></div></aside>\n')
     out += compartir(a) + '\n'

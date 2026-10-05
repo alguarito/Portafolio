@@ -27,3 +27,4 @@ libro_subtitulo: Subtítulo del libro
 libro_serie: Colección MILC, Tomo I
 libro_url: https://doi.org/...
 libro_portada: /assets/libros/<archivo>.jpg
+libro_licencia: CC BY-SA 4.0 (opcional; el Tomo 0 es CC BY-NC-SA 4.0)

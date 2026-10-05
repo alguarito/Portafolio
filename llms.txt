@@ -53,12 +53,15 @@ Docente de posgrado en la Universidad Tecnológica de Pereira desde 2018 y docen
 
 ## Colección MILC (Sor María Juliana Ediciones, 2026)
 
-- [Educación en la Era Onlife — MILC](https://doi.org/10.5281/zenodo.20517707): obra matriz.
+Cada libro se cita por su DOI de concepto, que lleva siempre a su versión más reciente.
+
+- [Educación en la Era Onlife: MILC, Modelo de Investigación Liberadora y Científica](https://doi.org/10.5281/zenodo.20517707): Tomo 0 y obra matriz de la colección. Versión 3.0 (octubre de 2026), en dos volúmenes: el libro, de 250 páginas, y el Cuaderno de trabajo MILC, de 48 páginas. Licencia CC BY-NC-SA 4.0.
 - [El Mercado de la Atención](https://doi.org/10.5281/zenodo.20644819): Tomo I.
 - [Pedagogía de la Querencia](https://doi.org/10.5281/zenodo.21176768): Tomo II.
 - [El Niño que Sueña Ciencia](https://doi.org/10.5281/zenodo.21360910): Tomo III.
 - [No Rendir la Mirada](https://doi.org/10.5281/zenodo.21517630): Tomo IV, sobre inteligencia artificial, datos y soberanía tecnológica.
 - [El Lugar de Llegar a Ser](https://doi.org/10.5281/zenodo.21654100): Tomo V.
+- [Guía de lectura de la colección en ConectaTE](https://alguarito.github.io/plataformaconectate/modelo-milc/coleccion): los seis libros, maneras de recorrerlos y cómo descargarlos y citarlos.
 - [La colección completa en Zenodo](https://zenodo.org/communities/coleccion-milc/records).
 
 Ponencia más reciente: «Soberanía, Ética y STEAM Frugal: el Modelo MILC ante los desafíos de la transmodernidad», II Congreso Internacional de Investigación en Ciencias de la Educación, UNAD, Valledupar, mayo de 2026.
