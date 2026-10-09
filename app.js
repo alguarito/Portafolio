@@ -33,6 +33,28 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // ===== LECTURAS DE ARTÍCULOS =====
+    // Contador en Abacus (sin cookies). Suma una vez por navegador y solo se muestra desde 50.
+    const VIEWS_API = 'https://abacus.jasoncameron.dev';
+    const VIEWS_NS = 'alvarocardenasorozco-com';
+    const VIEWS_MIN = 50;
+    document.querySelectorAll('[data-views]').forEach(el => {
+        const slug = el.dataset.slug;
+        let mode = 'get';
+        if (el.dataset.views === 'hit' && !navigator.webdriver) {
+            try {
+                if (!localStorage.getItem('leido:' + slug)) { mode = 'hit'; localStorage.setItem('leido:' + slug, '1'); }
+            } catch (e) { mode = 'hit'; }
+        }
+        fetch(`${VIEWS_API}/${mode}/${VIEWS_NS}/${slug}`)
+            .then(r => (r.ok ? r.json() : null))
+            .then(d => {
+                const n = d && d.value;
+                if (n >= VIEWS_MIN) { el.querySelector('span').textContent = n.toLocaleString('es-CO'); el.hidden = false; }
+            })
+            .catch(() => {});
+    });
+
     // ===== APARICIÓN AL DESPLAZARSE =====
     const items = document.querySelectorAll('.reveal');
     if (!('IntersectionObserver' in window)) {

@@ -306,7 +306,8 @@ def pagina_articulo(a, nav, tail, otros):
         out += f'  <a class="chip mono ar-tag" href="/{a["servicio"]}.html">{esc(SERVICIOS[a["servicio"]])}</a>\n'
     out += f'  <h1>{inline(a["titulo"])}</h1>\n  <p class="ar-lead">{inline(a.get("bajada") or a["descripcion"])}</p>\n'
     out += (f'  <p class="mono muted ar-meta">Por <a href="/#sobre-mi">Dr. Álvaro Cárdenas Orozco</a> · '
-            f'<time datetime="{a["fecha_d"].isoformat()}">{fecha_larga(a["fecha_d"])}</time> · {a["lectura"]} min de lectura</p>\n')
+            f'<time datetime="{a["fecha_d"].isoformat()}">{fecha_larga(a["fecha_d"])}</time> · {a["lectura"]} min de lectura'
+            f'<span class="ar-views" data-views="hit" data-slug="{a["slug"]}" hidden> · <span></span> lecturas</span></p>\n')
     if a.get('libro_url'):
         out += (f'  <a class="ar-basis" data-libro href="{a["libro_url"]}" target="_blank" rel="noopener">'
                 f'<span class="mono">Basado en el libro</span><strong>{inline(a["libro_titulo"])}</strong>'
@@ -361,7 +362,8 @@ def tarjeta(a, cls='ar-card'):
     tag = f'<span class="mono muted">{esc(SERVICIOS[a["servicio"]])}</span>' if a.get('servicio') else ''
     return (f'<a class="{cls} reveal" href="/articulos/{a["slug"]}.html">{img}<span class="ar-card-body">{tag}'
             f'<span class="ar-card-t">{inline(a["titulo"])}</span><span class="ar-card-d">{esc(a["descripcion"])}</span>'
-            f'<span class="mono muted">{fecha_larga(a["fecha_d"])} · {a["lectura"]} min</span></span></a>')
+            f'<span class="mono muted">{fecha_larga(a["fecha_d"])} · {a["lectura"]} min'
+            f'<span class="ar-views" data-views="get" data-slug="{a["slug"]}" hidden> · <span></span> lecturas</span></span></span></a>')
 
 
 def pagina_listado(arts, nav, tail):
