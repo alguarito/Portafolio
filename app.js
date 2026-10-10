@@ -79,15 +79,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
     items.forEach(el => observer.observe(el));
 });
-
-// Menú de versiones de la hoja de vida: cerrar al hacer clic fuera o con Escape
-(function () {
-  var menus = document.querySelectorAll('.cv-menu');
-  if (!menus.length) return;
-  document.addEventListener('click', function (e) {
-    menus.forEach(function (m) { if (m.open && !m.contains(e.target)) m.open = false; });
-  });
-  document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') menus.forEach(function (m) { m.open = false; });
-  });
-})();
