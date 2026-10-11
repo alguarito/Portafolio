@@ -14,7 +14,7 @@ libro_subtitulo: Revista científica y tecnológica escolar · Vol. 1, septiembr
 libro_serie: Semilleros de investigación de la I.E. Sor María Juliana
 libro_url: https://doi.org/10.5281/zenodo.23304524
 libro_coleccion: https://zenodo.org/communities/semilleros-sor-maria-juliana/records
-libro_portada: /assets/diseno/cosmo23-01.jpg
+libro_portada: /assets/libros/cosmotec-vol1.jpg
 ---
 El 8 de septiembre de 2023, la Institución Educativa Sor María Juliana de Cartago puso a circular doce páginas con una portada que nadie esperaba de un colegio público: el retrato de una mujer androide y un lema con algo de desafío, «la revista de mañana, hoy». Era el primer número de CosmoTec, la revista científica y tecnológica escolar. Adentro había algo más valioso que el diseño: tres textos firmados por estudiantes.
 
