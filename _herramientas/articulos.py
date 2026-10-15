@@ -230,16 +230,16 @@ def head(title, desc, url, og_img, og_type, ld, extra=''):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
-<meta name="author" content="Álvaro Cárdenas Orozco">
+<meta name="author" content="Alvaro Cardenas Orozco">
 <link rel="canonical" href="{url}">
-<link rel="alternate" type="application/rss+xml" title="Artículos de Álvaro Cárdenas Orozco" href="{BASE}/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="Artículos de Alvaro Cardenas Orozco" href="{BASE}/feed.xml">
 <meta name="theme-color" content="#f1f0ec">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="{og_type}">
 <meta property="og:locale" content="es_CO">
-<meta property="og:site_name" content="Álvaro Cárdenas Orozco">
+<meta property="og:site_name" content="Alvaro Cardenas Orozco">
 <meta property="og:url" content="{url}">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
@@ -289,14 +289,14 @@ def pagina_articulo(a, nav, tail, otros):
             {'@type': 'ListItem', 'position': 1, 'name': 'Inicio', 'item': BASE + '/'},
             {'@type': 'ListItem', 'position': 2, 'name': 'Artículos', 'item': BASE + '/articulos/'},
             {'@type': 'ListItem', 'position': 3, 'name': a['titulo'], 'item': a['url']}]},
-        {'@type': 'Person', '@id': BASE + '/#persona', 'name': 'Álvaro Cárdenas Orozco', 'url': BASE + '/'},
+        {'@type': 'Person', '@id': BASE + '/#persona', 'name': 'Alvaro Cardenas Orozco', 'url': BASE + '/'},
     ]}
     extra = (f'<meta property="article:published_time" content="{a["fecha_d"].isoformat()}">\n'
              f'<meta property="article:modified_time" content="{a["actualizado_d"].isoformat()}">\n'
              f'<meta property="article:author" content="{FB_PAGE}">\n'
              + ''.join(f'<meta property="article:tag" content="{esc(k)}">\n' for k in a['claves']))
-    og_img = a['og'] or '/assets/og.jpg'
-    titulo_pag = f'{a["titulo_seo"]} | Álvaro Cárdenas Orozco'
+    og_img = a['og'] or '/assets/og.jpg?v=2'
+    titulo_pag = f'{a["titulo_seo"]} | Alvaro Cardenas Orozco'
     if len(titulo_pag) > 65:  # Google corta cerca de 60-65; el nombre ya va en og:site_name y en el autor
         titulo_pag = a['titulo_seo']
     out = head(titulo_pag, a['descripcion'], a['url'], og_img, 'article', ld, extra)
@@ -305,7 +305,7 @@ def pagina_articulo(a, nav, tail, otros):
     if a.get('servicio'):
         out += f'  <a class="chip mono ar-tag" href="/{a["servicio"]}.html">{esc(SERVICIOS[a["servicio"]])}</a>\n'
     out += f'  <h1>{inline(a["titulo"])}</h1>\n  <p class="ar-lead">{inline(a.get("bajada") or a["descripcion"])}</p>\n'
-    out += (f'  <p class="mono muted ar-meta">Por <a href="/#sobre-mi">Dr. Álvaro Cárdenas Orozco</a> · '
+    out += (f'  <p class="mono muted ar-meta">Por <a href="/#sobre-mi">Dr. Alvaro Cardenas Orozco</a> · '
             f'<time datetime="{a["fecha_d"].isoformat()}">{fecha_larga(a["fecha_d"])}</time> · {a["lectura"]} min de lectura'
             f'<span class="ar-views" data-views="hit" data-slug="{a["slug"]}" hidden> · <span></span> lecturas</span></p>\n')
     if a.get('libro_url'):
@@ -346,8 +346,8 @@ def pagina_articulo(a, nav, tail, otros):
                 f'<a class="btn btn-line" href="{FB_PAGE}" target="_blank" rel="noopener">Seguir la página</a></div></section>\n')
     # Autor y servicio
     serv = a.get('servicio')
-    out += ('<aside class="ar-author"><img src="/assets/alvaro-cardenas-orozco.jpg" alt="Álvaro Cárdenas Orozco" width="96" height="96" loading="lazy">'
-            '<div><strong>Dr. Álvaro Cárdenas Orozco</strong><p>Ingeniero de sistemas, doctor en Ciencias de la Educación y autor de la Colección MILC. '
+    out += ('<aside class="ar-author"><img src="/assets/alvaro-cardenas-orozco.jpg" alt="Alvaro Cardenas Orozco" width="96" height="96" loading="lazy">'
+            '<div><strong>Dr. Alvaro Cardenas Orozco</strong><p>Ingeniero de sistemas, doctor en Ciencias de la Educación y autor de la Colección MILC. '
             'Docente de posgrado en la Universidad Tecnológica de Pereira.</p>'
             + (f'<a class="link-strong" href="/{serv}.html">{esc(SERVICIOS[serv])}: ver el servicio →</a>' if serv else
                '<a class="link-strong" href="/#servicios">Ver los servicios →</a>')
@@ -371,13 +371,13 @@ def tarjeta(a, cls='ar-card'):
 
 def pagina_listado(arts, nav, tail):
     url = BASE + '/articulos/'
-    desc = 'Artículos del Dr. Álvaro Cárdenas Orozco sobre inteligencia artificial en la educación, educación STEM y STEAM, desarrollo de software y diseño editorial.'
+    desc = 'Artículos del Dr. Alvaro Cardenas Orozco sobre inteligencia artificial en la educación, educación STEM y STEAM, desarrollo de software y diseño editorial.'
     ld = {'@context': 'https://schema.org', '@graph': [
-        {'@type': 'Blog', '@id': url + '#blog', 'name': 'Artículos de Álvaro Cárdenas Orozco', 'url': url,
+        {'@type': 'Blog', '@id': url + '#blog', 'name': 'Artículos de Alvaro Cardenas Orozco', 'url': url,
          'description': desc, 'inLanguage': 'es-CO', 'author': {'@id': BASE + '/#persona'},
          'blogPost': [{'@id': a['url'] + '#articulo'} for a in arts]},
-        {'@type': 'Person', '@id': BASE + '/#persona', 'name': 'Álvaro Cárdenas Orozco', 'url': BASE + '/'}]}
-    out = head('Artículos sobre IA y educación | Álvaro Cárdenas Orozco', desc, url, '/assets/og.jpg', 'website', ld,
+        {'@type': 'Person', '@id': BASE + '/#persona', 'name': 'Alvaro Cardenas Orozco', 'url': BASE + '/'}]}
+    out = head('Artículos sobre IA y educación | Alvaro Cardenas Orozco', desc, url, '/assets/og.jpg?v=2', 'website', ld,
                '' if arts else '<meta name="robots" content="noindex">\n')
     out += nav + '\n<main>\n<header class="s-hero">\n'
     out += '  <nav class="mono muted sv-crumbs" aria-label="Ruta"><a href="/">Inicio</a> / <span>Artículos</span></nav>\n'
@@ -401,7 +401,7 @@ def feed(arts):
         items += (f'<item><title>{esc(a["titulo"])}</title><link>{a["url"]}</link><guid>{a["url"]}</guid>'
                   f'<pubDate>{format_datetime(dt)}</pubDate><description>{esc(a["descripcion"])}</description></item>\n')
     return (f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>\n'
-            f'<title>Artículos de Álvaro Cárdenas Orozco</title><link>{BASE}/articulos/</link>'
+            f'<title>Artículos de Alvaro Cardenas Orozco</title><link>{BASE}/articulos/</link>'
             f'<atom:link href="{BASE}/feed.xml" rel="self" type="application/rss+xml"/>'
             f'<description>IA, educación y tecnología</description><language>es-co</language>\n{items}</channel></rss>\n')
 

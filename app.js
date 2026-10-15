@@ -1,5 +1,5 @@
 // ============================================
-// Álvaro Cárdenas Orozco — sitio personal
+// Alvaro Cardenas Orozco — sitio personal
 // Menú móvil y aparición al desplazarse
 // ============================================
 

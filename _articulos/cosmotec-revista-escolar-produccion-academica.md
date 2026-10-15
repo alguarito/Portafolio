@@ -64,6 +64,6 @@ Un semillero que investiga y no publica deja su trabajo a medias. CosmoTec naci�
 
 ## Fuentes
 
-- Cárdenas Orozco, Á. (Ed.). (2023). [*CosmoTEC: la revista de mañana, hoy* (Vol. 1)](https://doi.org/10.5281/zenodo.23304524). Institución Educativa Sor María Juliana.
-- Cárdenas Orozco, Á. (Ed.). (2024). [*CosmoTEC: la revista de mañana, hoy* (Vol. 2)](https://doi.org/10.5281/zenodo.23304837). Institución Educativa Sor María Juliana.
-- Cárdenas Orozco, Á. (2026). [*El Mercado de la Atención*. Colección MILC, Tomo I](https://doi.org/10.5281/zenodo.20644819). Sor María Juliana Ediciones.
+- Cardenas Orozco, A. (Ed.). (2023). [*CosmoTEC: la revista de mañana, hoy* (Vol. 1)](https://doi.org/10.5281/zenodo.23304524). Institución Educativa Sor María Juliana.
+- Cardenas Orozco, A. (Ed.). (2024). [*CosmoTEC: la revista de mañana, hoy* (Vol. 2)](https://doi.org/10.5281/zenodo.23304837). Institución Educativa Sor María Juliana.
+- Cardenas Orozco, A. (2026). [*El Mercado de la Atención*. Colección MILC, Tomo I](https://doi.org/10.5281/zenodo.20644819). Sor María Juliana Ediciones.

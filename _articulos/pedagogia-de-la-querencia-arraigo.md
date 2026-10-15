@@ -2,7 +2,7 @@
 titulo: Pedagogía de la Querencia: educar para pertenecer sin dejar de mirar el mundo
 titulo_seo: Pedagogía de la Querencia: educar el arraigo desde el territorio
 fecha: 2026-09-29
-bajada: El nuevo libro del Dr. Álvaro Cárdenas Orozco propone reconstruir el aula desde el territorio, la memoria y los saberes de la comunidad. Su apuesta central es tan sencilla como transformadora: el arraigo también puede educarse.
+bajada: El nuevo libro del Dr. Alvaro Cardenas Orozco propone reconstruir el aula desde el territorio, la memoria y los saberes de la comunidad. Su apuesta central es tan sencilla como transformadora: el arraigo también puede educarse.
 descripcion: Qué es la pedagogía de la querencia, cómo la escuela puede desarraigar sin proponérselo y cuatro herramientas para enseñar desde el territorio.
 palabras_clave: pedagogía de la querencia, arraigo, educación situada, territorio, saberes ancestrales, Enrique Dussel, pedagogía decolonial, cartografía social, Colección MILC
 facebook: https://www.facebook.com/Profe.AlvaroCardenas2021/posts/pfbid02WumnxPwvDS8eUejRKNhxC1cpDKCGPeCAc5hz4JqUr5AeBU1rUS3JAgeSq7shYLHgl
@@ -17,7 +17,7 @@ libro_portada: /assets/libros/pedagogia-querencia.jpg
 ---
 Durante mucho tiempo, la escuela ha enseñado a los estudiantes a mirar lejos. Los grandes acontecimientos históricos parecen haber ocurrido siempre en otros continentes; las innovaciones llegan desde países distantes y los conocimientos reconocidos como importantes suelen proceder de libros escritos en contextos muy diferentes al propio. Mientras tanto, el río cercano, las historias del barrio, los saberes campesinos, las memorias familiares y los problemas del territorio permanecen fuera del aula.
 
-Esta contradicción constituye el punto de partida de [*Pedagogía de la Querencia*](https://doi.org/10.5281/zenodo.21176768), segundo tomo de la [Colección MILC](https://zenodo.org/communities/coleccion-milc/records) (Modelo de Investigación Liberadora y Científica), escrito por el docente e investigador colombiano Álvaro Cárdenas Orozco.
+Esta contradicción constituye el punto de partida de [*Pedagogía de la Querencia*](https://doi.org/10.5281/zenodo.21176768), segundo tomo de la [Colección MILC](https://zenodo.org/communities/coleccion-milc/records) (Modelo de Investigación Liberadora y Científica), escrito por el docente e investigador colombiano Alvaro Cardenas Orozco.
 
 La obra formula una pregunta que interpela directamente a la educación contemporánea: ¿por qué formamos estudiantes que conocen el mundo, pero desconocen el lugar que habitan?
 

@@ -75,7 +75,7 @@ Formar ese criterio no exige tecnología costosa. Exige que alguien, en el aula,
 
 ## Fuentes
 
-- Cárdenas Orozco, Á. (2026). [No Rendir la Mirada. Colección MILC, Tomo IV](https://doi.org/10.5281/zenodo.21517630). Sor María Juliana Ediciones.
+- Cardenas Orozco, A. (2026). [No Rendir la Mirada. Colección MILC, Tomo IV](https://doi.org/10.5281/zenodo.21517630). Sor María Juliana Ediciones.
 - Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö. y Mariman, R. (2025). [Generative AI without guardrails can harm learning: Evidence from high school mathematics](https://doi.org/10.1073/pnas.2422633122). *Proceedings of the National Academy of Sciences*, 122(26).
 - Floridi, L. (2014). *The Fourth Revolution: How the Infosphere Is Reshaping Human Reality*. Oxford University Press.
 - Miao, F. y Holmes, W. (2023). [Guidance for generative AI in education and research](https://doi.org/10.54675/EWZM9535). UNESCO.

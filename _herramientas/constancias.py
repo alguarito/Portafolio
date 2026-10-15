@@ -73,13 +73,13 @@ h1 {{ margin-top: 3mm; font-size: 42pt; line-height: 1.02; letter-spacing: -0.03
 .aviso {{ margin-top: 5mm; font-size: 8pt; color: #555b58; }}
 </style></head><body>
 <div class="hoja"><div class="franja"></div>
-  <div class="mono">Dr. Álvaro Cárdenas Orozco · Formación docente · Cartago, Valle del Cauca, Colombia</div>
+  <div class="mono">Dr. Alvaro Cardenas Orozco · Formación docente · Cartago, Valle del Cauca, Colombia</div>
   <span class="tipo">Constancia de participación</span>
   <p class="consta">Se deja constancia de que</p>
   <h1>{nombre}</h1>
   <p class="texto">participó en <span class="curso">{curso}</span>, con una intensidad de <strong>{horas} horas</strong>, realizado {periodo} en modalidad {modalidad}{institucion}.{aval}</p>
   <div class="pie">
-    <div class="firma"><strong>Dr. Álvaro Cárdenas Orozco</strong><span>Doctor en Ciencias de la Educación · Ingeniero de Sistemas y Computación<br>ORCID 0000-0003-1820-301X · alvarocardenasorozco.com</span></div>
+    <div class="firma"><strong>Dr. Alvaro Cardenas Orozco</strong><span>Doctor en Ciencias de la Educación · Ingeniero de Sistemas y Computación<br>ORCID 0000-0003-1820-301X · alvarocardenasorozco.com</span></div>
     <div class="qr"><div class="mono">Verifique esta constancia en<br>alvarocardenasorozco.com/verificar<br><span class="cod">{codigo}</span><br>Emitida el {emitida}</div><div id="qr"></div></div>
   </div>
   <p class="aviso">Esta constancia acredita la participación en una actividad de formación continua. No constituye título ni crédito académico.</p>
@@ -120,7 +120,7 @@ def main():
             'nombre': r['nombre'], 'curso': r['curso'], 'horas': r['horas'],
             'periodo': periodo, 'modalidad': r['modalidad'] or 'presencial',
             'institucion': r['institucion'], 'aval': r['aval'],
-            'emitida': fecha_larga(hoy), 'emisor': 'Dr. Álvaro Cárdenas Orozco',
+            'emitida': fecha_larga(hoy), 'emisor': 'Dr. Alvaro Cardenas Orozco',
         }
         with open(os.path.join(ROOT, 'constancias', r['codigo'] + '.json'), 'w', encoding='utf-8') as f:
             json.dump(reg, f, ensure_ascii=False, indent=1)

@@ -89,7 +89,7 @@ Por eso la escuela pública no está condenada a ser espectadora del mercado de 
 
 ## Fuentes
 
-- Cárdenas Orozco, Á. (2026). [El Mercado de la Atención. Colección MILC, Tomo I](https://doi.org/10.5281/zenodo.20644819). Sor María Juliana Ediciones.
+- Cardenas Orozco, A. (2026). [El Mercado de la Atención. Colección MILC, Tomo I](https://doi.org/10.5281/zenodo.20644819). Sor María Juliana Ediciones.
 - Comisión de Regulación de Comunicaciones, CRC. (2024). *Infancia y medios audiovisuales: consumo, mediación parental y apropiación 2024*.
 - DANE. (2024–2025). *Indicadores básicos de tenencia y uso de TIC en hogares y personas*.
 - Floridi, L. (2014). *The Fourth Revolution: How the Infosphere Is Reshaping Human Reality*. Oxford University Press.
