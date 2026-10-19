@@ -1005,3 +1005,9 @@ ul { padding: 0; list-style: none; }
 #profesionales .svx-cat + .svx-cat { margin-top: var(--gap); }
 #instituciones .area-ink .area-sub a { color: var(--on-ink); }
 #instituciones .area-accent .svx-price { background: var(--ink); color: var(--accent) !important; }
+/* Página de programa */
+.prog-steps { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 1000px) { .prog-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .prog-steps { grid-template-columns: minmax(0, 1fr); } }
+.prog-pilot { margin-top: 0; }
+.prog-pilot { background: var(--paper); }
