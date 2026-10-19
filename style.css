@@ -937,3 +937,63 @@ ul { padding: 0; list-style: none; }
 .cat-soft { background: var(--soft); }
 .cat-soft .cat-desc, .cat-soft .cat-n, .cat-soft .cat-meta .mono { color: var(--ink-2); }
 .cat-soft .svx { background: var(--paper); }
+
+/* ===== Fase 1 de mejoras (octubre de 2026) ===== */
+/* Problemas que resuelvo */
+.prob-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap); }
+.prob { display: flex; flex-direction: column; gap: 14px; padding: clamp(24px, 2.4vw, 34px); border-radius: var(--r-md); background: var(--paper); }
+.prob .mono { color: var(--muted); }
+.prob h3 { font-size: clamp(22px, 2vw, 28px); line-height: 1.12; letter-spacing: -0.02em; font-weight: 600; }
+.prob p { font-size: 16px; line-height: 1.5; color: var(--ink-2); }
+.prob a { margin-top: auto; font-weight: 600; }
+/* Cuatro cifras */
+.pf-grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+/* Aliados con su relación */
+.allies li { display: flex; flex-direction: column; gap: 4px; }
+.allies li small { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 400; letter-spacing: .02em; color: var(--muted); }
+/* Casos: ¿puede replicarse? y aviso de prototipo */
+.cs-grid .cs-repl { grid-column: 1 / -1; }
+.cs-grid .cs-repl dd { max-width: 900px; }
+.cs-warn { display: inline-block; margin-top: 12px; padding: 6px 14px; border-radius: 999px; background: var(--accent); color: var(--ink); font-family: 'JetBrains Mono', monospace; font-size: 13px; }
+.cs-body > .cs-voice { grid-column: 2; }
+@media (max-width: 1080px) { .cs-body > .cs-voice { grid-column: 1; } }
+.cs-voice { margin: 0; padding: 20px 24px; border-radius: 18px; background: var(--ground); }
+.cs-voice blockquote { margin: 0; font-size: 20px; line-height: 1.35; }
+.cs-voice figcaption { margin-top: 10px; font-size: 13px; color: var(--muted); }
+/* Contacto: tres opciones */
+.contact-opts { display: flex; flex-direction: column; gap: 10px; }
+.contact-opts .mono { color: var(--muted); }
+.contact-opts a { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 18px; border: 1px solid var(--line); border-radius: 16px; color: var(--ink); font-weight: 600; text-decoration: none; transition: background-color .2s; }
+.contact-opts a:hover { background: var(--accent); }
+/* Página MILC */
+.milc-cycle { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: var(--gap); counter-reset: f; }
+.milc-cycle li { padding: 22px; border-radius: var(--r-md); background: var(--paper); display: flex; flex-direction: column; gap: 10px; }
+.milc-cycle li strong { font-size: 20px; letter-spacing: -0.01em; }
+.milc-cycle li span { font-size: 15px; line-height: 1.45; color: var(--ink-2); }
+.milc-tomos { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap); }
+.milc-tomos li { padding: 22px; border-radius: var(--r-md); background: var(--paper); display: flex; flex-direction: column; gap: 8px; }
+.milc-tomos .t { font-size: 20px; font-weight: 600; letter-spacing: -0.01em; }
+.milc-tomos .q { font-size: 15px; color: var(--ink-2); }
+.milc-cite { padding: 22px 24px; border-radius: var(--r-md); background: var(--paper); font-size: 16px; line-height: 1.55; }
+.milc-cite + .milc-cite { margin-top: var(--gap); }
+@media (max-width: 1000px) {
+  .prob-grid { grid-template-columns: minmax(0, 1fr); }
+  .pf-grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .milc-cycle { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .milc-tomos { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .milc-cycle, .milc-tomos { grid-template-columns: minmax(0, 1fr); }
+}
+.prob-grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 1000px) { .prob-grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .prob-grid-4 { grid-template-columns: minmax(0, 1fr); } }
+/* Artículos: caso relacionado */
+.ar-rel { margin: clamp(32px, 4vw, 48px) 0 0; padding: 22px 26px; border-radius: var(--r-md); background: var(--paper); display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.ar-rel .mono { color: var(--muted); }
+.ar-rel a { font-weight: 600; font-size: 18px; }
+.pf.pf-ink p { color: var(--on-ink-2); }
+/* Tres casos insignia: en dos columnas, el primero a todo el ancho */
+@media (max-width: 1080px) and (min-width: 681px) {
+  .wk-grid-3 > .wk:first-child { grid-column: span 2; }
+}
