@@ -91,8 +91,16 @@
   <!-- articulos:inicio -->
   <url>
     <loc>https://alvarocardenasorozco.com/articulos/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alvarocardenasorozco.com/articulos/del-aula-al-territorio-decidir-con-evidencia.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <image:image>
+      <image:loc>https://alvarocardenasorozco.com/assets/articulos/del-aula-al-territorio-decidir-con-evidencia.jpg</image:loc>
+    </image:image>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://alvarocardenasorozco.com/articulos/cosmotec-revista-escolar-produccion-academica.html</loc>
