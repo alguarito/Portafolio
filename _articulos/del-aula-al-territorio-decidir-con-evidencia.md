@@ -5,6 +5,7 @@ fecha: 2026-10-18
 bajada: El viernes 23 de octubre daré la conferencia central del III Seminario «La campana nos sigue llamando», en Cartago. Antes de armar las diapositivas me hice tres preguntas: cómo decidimos en el aula, por qué vale la pena empezar y cómo se vuelve costumbre una manera de mirar.
 descripcion: Tres reflexiones antes de mi conferencia en la Normal de Cartago: decidir en el aula con evidencia, sentido y territorio, y el modelo MILC.
 palabras_clave: decisiones pedagógicas basadas en evidencia, investigación en el aula, escuela y territorio, saber pedagógico, Escuela Normal Superior de Cartago, seminario de pedagogía, modelo MILC, Colección MILC
+facebook: https://www.facebook.com/share/p/1Dwk6pGE9m/
 servicio: conferencias
 imagen: _articulos/img/del-aula-al-territorio-decidir-con-evidencia.jpg
 imagen_alt: Pintura de un aula abierta al paisaje, con estudiantes que trabajan con un robot, un telescopio y un cuaderno, y otros que suben por unas escaleras hacia un pueblo con iglesia o miden el agua de un río; en el cielo, una campana se une con líneas doradas a escenas de estudiantes que investigan
