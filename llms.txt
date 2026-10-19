@@ -23,6 +23,7 @@ Docente de posgrado en la Universidad Tecnológica de Pereira desde 2018 y docen
 ## Páginas
 
 - [Sitio principal](https://alvarocardenasorozco.com/): servicios, resultados, testimonios, libros y contacto.
+- [Recursos abiertos](https://alvarocardenasorozco.com/recursos-abiertos.html): la Colección MILC completa con DOI (libros, Cuaderno de trabajo y hojas F01–F16), las publicaciones del semillero y las plataformas con código abierto, con su licencia y el programa al que sirven.
 - [Modelo MILC](https://alvarocardenasorozco.com/milc.html): qué problema resuelve, principios, el ciclo de investigación en cinco momentos, aplicación en el aula y cómo citar el modelo.
 - [Casos](https://alvarocardenasorozco.com/casos.html): trece casos en educación, desarrollo a medida, diseño a medida e IA aplicada, con reto, lo que se hizo y el resultado.
 - [Diseño](https://alvarocardenasorozco.com/diseno.html): manual de identidad del Semillero ConectaTE, revistas CosmoTec (2023, 2024) y Voces que Transforman (2026), el libro «¿Qué vemos en el cielo?» y piezas institucionales.
