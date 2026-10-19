@@ -997,3 +997,17 @@ ul { padding: 0; list-style: none; }
 @media (max-width: 1080px) and (min-width: 681px) {
   .wk-grid-3 > .wk:first-child { grid-column: span 2; }
 }
+/* Servicios en tres niveles */
+.fm-quote { margin-top: auto; align-self: flex-start; }
+.fm-sub { margin-top: 4px; font-family: 'Instrument Serif', serif; font-style: italic; font-size: 18px; color: var(--muted); }
+#instituciones .area-sub strong { color: inherit; }
+#instituciones .area .svx-price { margin-top: 4px; }
+#profesionales .svx-cat + .svx-cat { margin-top: var(--gap); }
+#instituciones .area-ink .area-sub a { color: var(--on-ink); }
+#instituciones .area-accent .svx-price { background: var(--ink); color: var(--accent) !important; }
+/* Página de programa */
+.prog-steps { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 1000px) { .prog-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .prog-steps { grid-template-columns: minmax(0, 1fr); } }
+.prog-pilot { margin-top: 0; }
+.prog-pilot { background: var(--paper); }

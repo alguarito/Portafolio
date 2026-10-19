@@ -31,13 +31,15 @@ Docente de posgrado en la Universidad Tecnológica de Pereira desde 2018 y docen
 
 ## Servicios en detalle
 
-- [Servicios y precios](https://alvarocardenasorozco.com/servicios.html): los ocho servicios con su precio de referencia.
+- [Servicios](https://alvarocardenasorozco.com/servicios.html): tres niveles. Soluciones para instituciones (programa de IA con criterio, transformación curricular STEM+, plataforma educativa e investigación y publicación), que se cotizan según un diagnóstico; servicios profesionales con precios publicados (tesis, clases, conferencias y diseño editorial); y otros servicios digitales.
 - [Formación docente en IA](https://alvarocardenasorozco.com/formacion-docente-ia.html): talleres, cursos y módulos de capacitación en inteligencia artificial para docentes (Módulo 9 del Diplomado en IA de la UTP, Escritura Inversa, El Plano del Minimalismo Digital).
 - [Educación STEM y STEAM](https://alvarocardenasorozco.com/educacion-stem-steam.html): semilleros de investigación, robótica educativa, pensamiento computacional, ciencia ciudadana y preparación para Samsung Solve for Tomorrow.
 - [Desarrollo a medida](https://alvarocardenasorozco.com/desarrollo-a-medida.html): plataformas educativas, aplicaciones web que funcionan sin conexión, automatización de documentos y asistentes con IA.
 - [Diseño editorial](https://alvarocardenasorozco.com/diseno-editorial.html): maquetación de libros y revistas, identidad visual, informes institucionales, corrección de estilo y publicación con DOI.
 - [Asesoría de tesis](https://alvarocardenasorozco.com/asesoria-de-tesis.html): dirección y asesoría de tesis y trabajos de grado, y corrección de estilo de proyectos de grado.
 - [Clases personalizadas](https://alvarocardenasorozco.com/clases-personalizadas.html): clases uno a uno o en grupos pequeños sobre IA, programación, física, tesis, proyecto de grado y corrección de estilo; se agendan por Calendly.
+- [Investigación y publicación institucional](https://alvarocardenasorozco.com/publicacion-institucional.html): programa para que una institución escriba y publique: revista, informes diseñados, publicación con DOI y formación para escribir.
+- [Otros servicios digitales](https://alvarocardenasorozco.com/otros-servicios-digitales.html): sitios web para negocios, SEO, evaluación técnica, ingeniería de software por horas e IA creativa.
 - [IA creativa](https://alvarocardenasorozco.com/ia-creativa.html): imágenes, canciones, diseños, videos y libros ilustrados creados a medida con IA.
 - [Conferencias](https://alvarocardenasorozco.com/conferencias.html): conferencias y ponencias sobre IA en la escuela, educación STEAM, Educación 4.0 y el modelo MILC.
 
