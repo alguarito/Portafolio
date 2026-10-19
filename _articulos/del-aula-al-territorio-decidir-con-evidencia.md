@@ -7,6 +7,7 @@ descripcion: Tres reflexiones antes de mi conferencia en la Normal de Cartago: d
 palabras_clave: decisiones pedagógicas basadas en evidencia, investigación en el aula, escuela y territorio, saber pedagógico, Escuela Normal Superior de Cartago, seminario de pedagogía, modelo MILC, Colección MILC
 facebook: https://www.facebook.com/share/p/1Dwk6pGE9m/
 servicio: conferencias
+caso: /milc.html | El modelo MILC: principios, ciclo y aplicación en el aula
 imagen: _articulos/img/del-aula-al-territorio-decidir-con-evidencia.jpg
 imagen_alt: Pintura de un aula abierta al paisaje, con estudiantes que trabajan con un robot, un telescopio y un cuaderno, y otros que suben por unas escaleras hacia un pueblo con iglesia o miden el agua de un río; en el cielo, una campana se une con líneas doradas a escenas de estudiantes que investigan
 libro_titulo: Educación en la Era Onlife

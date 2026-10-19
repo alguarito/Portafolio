@@ -333,6 +333,11 @@ def pagina_articulo(a, nav, tail, otros):
                 + (f'<p>{esc(a["libro_serie"])}. Acceso abierto, con licencia {esc(a.get("libro_licencia") or "CC BY-SA 4.0")}.</p>' if a.get('libro_serie') else '')
                 + f'<div class="sv-cta"><a class="btn btn-ink" data-libro href="{a["libro_url"]}" target="_blank" rel="noopener">Descargar {obra} gratis</a>'
                 f'<a class="btn btn-line" href="{coleccion}" target="_blank" rel="noopener">Ver la colección</a></div></div></aside>\n')
+    # Caso relacionado: «caso: /casos.html#ancla | Título del caso»
+    if a.get('caso') and '|' in a['caso']:
+        href, tit = [x.strip() for x in a['caso'].split('|', 1)]
+        out += (f'<p class="ar-rel"><span class="mono">Caso relacionado</span>'
+                f'<a href="{esc(href)}">{esc(tit)} →</a></p>\n')
     out += compartir(a) + '\n'
     # Conversación en Facebook
     if a.get('facebook'):

@@ -7,6 +7,7 @@ descripcion: Por qué la escuela apaga la curiosidad, cómo darle método sin do
 palabras_clave: curiosidad científica, investigación escolar, semilleros de investigación, pregunta en el aula, educación científica, Paulo Freire, ciencia ciudadana, Colección MILC
 facebook: https://www.facebook.com/share/p/1GqzfzacwR/
 servicio: educacion-stem-steam
+caso: /casos.html#semilleros | Semilleros: tres años seguidos entre los mejores del país
 imagen: _articulos/img/curiosidad-cientifica-en-el-aula.jpg
 imagen_alt: Pintura de un niño que se asoma con asombro a un charco en la tierra agrietada donde se ve una galaxia con símbolos de la ciencia, un átomo, una cadena de ADN, un telescopio y planetas
 libro_titulo: El Niño que Sueña Ciencia

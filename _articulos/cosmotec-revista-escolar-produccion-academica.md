@@ -6,6 +6,7 @@ bajada: En septiembre de 2023, tres estudiantes de un colegio público de Cartag
 descripcion: Qué fue el primer número de CosmoTec y por qué una revista escolar impulsa la escritura, la investigación y la producción académica de toda la institución.
 palabras_clave: revista escolar, producción académica docente, escritura académica, divulgación científica escolar, semilleros de investigación, publicar con DOI, acceso abierto
 servicio: diseno-editorial
+caso: /casos.html#identidad | Identidad y diseño editorial: un sistema para informes y libros
 facebook: https://www.facebook.com/share/p/1XUhQpJ2wW/
 imagen: _articulos/img/cosmotec-revista-escolar-produccion-academica.jpg
 imagen_alt: Portada del primer número de la revista CosmoTec, de septiembre de 2023, en estilo de pintura al óleo con trazos de espátula: el retrato de perfil de una mujer androide con cables en la cabeza y el cuello, en tonos azules y cobrizos, y el lema «La revista de mañana, hoy»

@@ -7,6 +7,7 @@ descripcion: Qué es la pedagogía de la querencia, cómo la escuela puede desar
 palabras_clave: pedagogía de la querencia, arraigo, educación situada, territorio, saberes ancestrales, Enrique Dussel, pedagogía decolonial, cartografía social, Colección MILC
 facebook: https://www.facebook.com/Profe.AlvaroCardenas2021/posts/pfbid02WumnxPwvDS8eUejRKNhxC1cpDKCGPeCAc5hz4JqUr5AeBU1rUS3JAgeSq7shYLHgl
 servicio: conferencias
+caso: /casos.html#curriculo | Currículo MILC: del plan de área a la guía de clase
 imagen: _articulos/img/pedagogia-de-la-querencia-arraigo.jpg
 imagen_alt: Pintura de una maestra, niños, jóvenes y mayores que leen juntos un libro en una colina, con raíces que bajan hacia la tierra entre vasijas, semillas y tejidos, frente a una escuela, un pueblo y un río entre montañas
 libro_titulo: Pedagogía de la Querencia

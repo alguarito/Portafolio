@@ -6,6 +6,7 @@ bajada: La misma inteligencia artificial puede instalar capacidad o instalar dep
 descripcion: Cuándo la IA ayuda a aprender y cuándo lo impide, qué dice la evidencia y tres hábitos para usarla en el aula: declarar, verificar y ser autor.
 palabras_clave: inteligencia artificial en el aula, IA en educación, deuda cognitiva, uso ético de la IA, política de IA escolar, alfabetización en IA, escritura inversa, Colección MILC
 servicio: formacion-docente-ia
+caso: /casos.html#escritura-inversa | Escritura Inversa: 82 libros escritos con IA
 borrador: si
 libro_titulo: No Rendir la Mirada
 libro_subtitulo: Inteligencia artificial, datos y soberanía tecnológica: usar la herramienta con criterio, autoría y cuidado, sin rendir la mirada
