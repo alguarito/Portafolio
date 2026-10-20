@@ -5,6 +5,7 @@ fecha: 2026-10-20
 bajada: La educación ante el Presupuesto General de la Nación de 2027, entre las cifras que crecen, la inversión que se reduce y las oportunidades que Colombia no puede seguir aplazando.
 descripcion: El presupuesto de Mineducación para 2027 crece, pero su inversión cae. Qué significa para la escuela pública, las universidades, los docentes y el PAE.
 palabras_clave: presupuesto 2027 educación, Presupuesto General de la Nación 2027, inversión en educación Colombia, Ministerio de Educación presupuesto, gratuidad universitaria, PAE, PISA Colombia
+facebook: https://www.facebook.com/share/p/1HwHJxT43J/
 servicio: conferencias
 imagen: _articulos/img/presupuesto-educacion-2027.jpg
 imagen_alt: Pintura al óleo de un gran reloj de arena: en la parte alta, una montaña dorada que se escurre entre engranajes, tuberías, edificios institucionales y pilas de papeles; en la parte baja, un hilo de luz cae sobre un libro abierto del que nace un árbol, rodeado por estudiantes con un microscopio, un robot y un portátil, una docente, una escuela rural y una torre de comunicaciones
