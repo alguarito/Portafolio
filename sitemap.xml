@@ -111,8 +111,16 @@
   <!-- articulos:inicio -->
   <url>
     <loc>https://alvarocardenasorozco.com/articulos/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alvarocardenasorozco.com/articulos/presupuesto-educacion-2027.html</loc>
+    <lastmod>2026-10-20</lastmod>
+    <image:image>
+      <image:loc>https://alvarocardenasorozco.com/assets/articulos/presupuesto-educacion-2027.jpg</image:loc>
+    </image:image>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://alvarocardenasorozco.com/articulos/del-aula-al-territorio-decidir-con-evidencia.html</loc>
