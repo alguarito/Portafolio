@@ -23,7 +23,7 @@ Docente de posgrado en la Universidad Tecnológica de Pereira desde 2018 y docen
 ## Páginas
 
 - [Sitio principal](https://alvarocardenasorozco.com/): servicios, resultados, testimonios, libros y contacto.
-- [Recursos abiertos](https://alvarocardenasorozco.com/recursos-abiertos.html): la Colección MILC completa con DOI (libros, Cuaderno de trabajo y hojas F01–F16), las publicaciones del semillero y las plataformas con código abierto, con su licencia y el programa al que sirven.
+- [Recursos abiertos](https://alvarocardenasorozco.com/recursos-abiertos.html): la Colección MILC completa con DOI (libros, Cuaderno de trabajo y hojas F01–F16), la tesis doctoral publicada como libro, las publicaciones del semillero y las plataformas con código abierto, con su licencia y el programa al que sirven.
 - [Modelo MILC](https://alvarocardenasorozco.com/milc.html): qué problema resuelve, principios, el ciclo de investigación en cinco momentos, aplicación en el aula y cómo citar el modelo.
 - [Casos](https://alvarocardenasorozco.com/casos.html): trece casos en educación, desarrollo a medida, diseño a medida e IA aplicada, con reto, lo que se hizo y el resultado.
 - [Diseño](https://alvarocardenasorozco.com/diseno.html): manual de identidad del Semillero ConectaTE, revistas CosmoTec (2023, 2024) y Voces que Transforman (2026), el libro «¿Qué vemos en el cielo?» y piezas institucionales.
@@ -74,6 +74,8 @@ Cada libro se cita por su DOI de concepto, que lleva siempre a su versión más 
 Ponencia más reciente: «Soberanía, Ética y STEAM Frugal: el Modelo MILC ante los desafíos de la transmodernidad», II Congreso Internacional de Investigación en Ciencias de la Educación, UNAD, Valledupar, mayo de 2026.
 
 Artículo arbitrado: [Modelo de investigación liberadora y científica (MILC): una propuesta para la educación en la era onlife](https://doi.org/10.63862/rhs-v1n3-56-77-2026), Revista Hambatu Science, 2026.
+
+Tesis doctoral publicada como libro: [Impacto de la implementación del modelo pedagógico Flipped Classroom en la enseñanza de la tecnología en básica secundaria: Relectura crítica de la experiencia desde el MILC](https://doi.org/10.5281/zenodo.23519364), Sor María Juliana Ediciones, 2026. Edición revisada y ampliada (versión 1.0, 146 páginas) de la tesis aprobada por la Universidad Cuauhtémoc (México) en 2024. Licencia CC BY-NC-SA 4.0.
 
 ## Contacto
 

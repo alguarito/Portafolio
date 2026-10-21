@@ -170,7 +170,7 @@ ul { padding: 0; list-style: none; }
 .quote-accent figcaption { color: var(--ink); }
 
 /* ---------- Libros ---------- */
-.books { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: var(--gap); }
+.books { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: var(--gap); }
 .book { display: flex; flex-direction: column; gap: 6px; text-decoration: none; color: var(--ink); }
 .book:hover { color: var(--ink); }
 .book img { width: 100%; aspect-ratio: 7 / 10; height: auto; object-fit: cover; border-radius: 14px; margin-bottom: 8px; transition: transform .4s var(--ease), box-shadow .4s var(--ease); }
@@ -246,7 +246,7 @@ ul { padding: 0; list-style: none; }
   .card { min-height: 280px; }
   .results { grid-template-columns: minmax(0, 1fr); gap: 40px; min-height: 0; }
   .quotes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .books { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px var(--gap); }
+  .books { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px var(--gap); }
   .creds { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .contact { grid-template-columns: minmax(0, 1fr); gap: 40px; }
 }
