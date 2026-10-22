@@ -353,7 +353,7 @@ def pagina_articulo(a, nav, tail, otros):
     serv = a.get('servicio')
     out += ('<aside class="ar-author"><img src="/assets/alvaro-cardenas-orozco.jpg" alt="Alvaro Cardenas Orozco" width="96" height="96" loading="lazy">'
             '<div><strong>Dr. Alvaro Cardenas Orozco</strong><p>Ingeniero de sistemas, doctor en Ciencias de la Educación y autor de la Colección MILC. '
-            'Docente de posgrado en la Universidad Tecnológica de Pereira.</p>'
+            'Docente de posgrado en la Universidad Tecnológica de Pereira e integrante de su grupo de investigación Robótica Aplicada.</p>'
             + (f'<a class="link-strong" href="/{serv}.html">{esc(SERVICIOS[serv])}: ver el servicio →</a>' if serv else
                '<a class="link-strong" href="/#servicios">Ver los servicios →</a>')
             + '</div></aside>\n')
