@@ -20,7 +20,7 @@ from urllib.parse import quote
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = 'https://alvarocardenasorozco.com'
-CAL = 'https://calendly.com/alvaro-cardenas-orozco/30min'
+CAL = 'https://calendly.com/alvaro-cardenas-orozco'
 FB_PAGE = 'https://www.facebook.com/Profe.AlvaroCardenas2021/'
 CSS_V = None  # se lee de index.html para usar la misma versión
 MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto',
