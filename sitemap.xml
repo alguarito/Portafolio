@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://alvarocardenasorozco.com/hoja-de-vida.html</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -50,17 +50,17 @@
   </url>
   <url>
     <loc>https://alvarocardenasorozco.com/hoja-de-vida-alvaro-cardenas.pdf</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://alvarocardenasorozco.com/hoja-de-vida-edtech.html</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://alvarocardenasorozco.com/hoja-de-vida-alvaro-cardenas-edtech.pdf</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -85,7 +85,7 @@
   </url>
   <url>
     <loc>https://alvarocardenasorozco.com/asesoria-de-tesis.html</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -111,8 +111,16 @@
   <!-- articulos:inicio -->
   <url>
     <loc>https://alvarocardenasorozco.com/articulos/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alvarocardenasorozco.com/articulos/ajuste-fiscal-colombia-quien-paga.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <image:image>
+      <image:loc>https://alvarocardenasorozco.com/assets/articulos/ajuste-fiscal-colombia-quien-paga.jpg</image:loc>
+    </image:image>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://alvarocardenasorozco.com/articulos/presupuesto-educacion-2027.html</loc>
