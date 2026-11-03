@@ -5,6 +5,7 @@ fecha: 2026-11-03
 bajada: Las cifras muestran que Colombia necesita corregir sus finanzas públicas. Pero reconocer la necesidad del ajuste no obliga a aceptar todas las medidas propuestas: el verdadero debate empieza cuando hay que decidir cómo se reparten sus costos.
 descripcion: Déficit, deuda, IVA, renta y EfectIVA: qué propone la Ley de Rescate Económico, qué dicen las cifras oficiales y quién pagaría el ajuste fiscal.
 palabras_clave: Ley de Rescate Económico, ajuste fiscal Colombia, reforma tributaria 2026, EfectIVA devolución del IVA, déficit fiscal 2027, deuda pública Colombia, Presupuesto General de la Nación 2027
+facebook: https://www.facebook.com/share/p/1CAoHRrbyT/
 servicio: conferencias
 imagen: _articulos/img/ajuste-fiscal-colombia-quien-paga.jpg
 imagen_alt: Pintura al óleo de una gran balanza de bronce en un recinto con arcos y ventanales: en un platillo, un barrio con una escuela, un puesto de salud, obreros, campesinos y familias; en el otro, libros contables, pilas de papeles y monedas de oro; desde los balcones, ciudadanos observan
