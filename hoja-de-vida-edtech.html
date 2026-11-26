@@ -31,13 +31,17 @@ html, body { margin: 0; background: #e2e1db; font-family: 'Instrument Sans', sys
 .ver { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; color: #3d4240; }
 .ver select { -webkit-appearance: none; appearance: none; height: 44px; padding: 0 44px 0 18px; border: 1px solid #b9bcb8; border-radius: 999px; background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23111312' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 18px center; font: inherit; font-size: 15px; font-weight: 600; color: #111312; cursor: pointer; }
 .ver select:hover { border-color: #111312; }
-@media (max-width: 560px) { .ver span { display: none; } .bar .dl { padding: 0 14px; } }
 .bar .dl { display: inline-flex; align-items: center; height: 44px; padding: 0 20px; border-radius: 999px; background: #111312; color: #fff; text-decoration: none; white-space: nowrap; }
+@media (max-width: 560px) {
+  .bar { position: static; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px 12px; padding: 12px 16px; }
+  .bar-r { display: contents; }
+  .ver { grid-column: 1 / -1; grid-row: 2; }
+  .ver span { display: none; }
+  .ver select { width: 100%; }
+  .bar .dl { grid-column: 2; grid-row: 1; padding: 0 16px; }
+}
 .sheets { display: flex; flex-direction: column; align-items: center; gap: 24px; padding: 32px 0 64px; }
 .page { box-shadow: 0 8px 28px rgba(17,19,18,.12); flex-shrink: 0; transform-origin: top center; }
-@media (max-width: 830px) {
-  .sheets { gap: 0; padding-top: 16px; }
-}
 @media print {
   html, body { background: #f1f0ec; }
   .bar { display: none; }
@@ -78,6 +82,40 @@ html, body { margin: 0; background: #e2e1db; font-family: 'Instrument Sans', sys
 .cookie-actions .btn-ink { background: #111312; color: #fff; border: 0; }
 .cookie-actions .btn-line { background: transparent; color: #111312; border: 1px solid #b9bcb8; }
 @media print { .cookie-bar { display: none !important; } }
+/* Pantallas angostas: las hojas A4 se vuelven una sola columna legible. La impresión y el PDF no cambian. */
+@media screen and (max-width: 830px) {
+  .sheets { gap: 0; padding: 0 0 40px; align-items: stretch; }
+  .page { width: auto !important; max-width: 720px; height: auto !important; margin: 0 auto; padding: 26px 22px 0 !important; gap: 26px !important; overflow: visible !important; box-shadow: none; }
+  .p1 { padding-top: 28px !important; }
+  .p3 { padding-bottom: 28px !important; }
+  .p2 > header, .p3 > header, .p1 > footer, .p2 > footer, .p3 > footer > span:last-child { display: none !important; }
+  .p3 > footer { font-size: 13px !important; line-height: 1.45; }
+  .page > div[style*="grid"] { grid-template-columns: minmax(0, 1fr) !important; row-gap: 26px; }
+  .page > div[style*="grid"] > * { gap: 26px !important; }
+  .p1 > header { flex-direction: column; align-items: flex-start !important; gap: 18px !important; }
+  .p1 > header img { width: 104px !important; height: 104px !important; border-radius: 16px !important; }
+  .p1 h1 { font-size: clamp(34px, 10.5vw, 46px) !important; }
+  .p1 > header > div > div:nth-of-type(3) { font-size: 15px !important; }
+  .p1 > header > div > div:nth-of-type(4) { font-size: 12px !important; white-space: normal !important; }
+  .h2 { font-size: 12.5px !important; margin-bottom: 12px !important; }
+  .p1 section > div { gap: 14px !important; }
+  .p1 aside > section:first-child > div { gap: 8px !important; }
+  .p1 .ent { gap: 3px; }
+  .p1 .t { font-size: 16px; }
+  .p1 .d, .p1 .lbl { font-size: 13.5px; }
+  .p1 .o { font-size: 14.5px; }
+  .p1 .p { font-size: 15px; line-height: 1.55; }
+  .p1 .val { font-size: 15px; }
+  .p2 .list, .p3 .list { gap: 8px; }
+  .p2 .list li, .p3 .list li { font-size: 15px; line-height: 1.5; }
+  .p2 .list li.sub { font-size: 12px !important; margin-top: 10px !important; }
+  .p3 section > div[style*="flex-direction"] { gap: 14px !important; }
+  .p3 .k { font-size: 12.5px; }
+  .p3 .ti { font-size: 17px; }
+  .p3 .st { font-size: 16px; }
+  .p3 .m { font-size: 13.5px; line-height: 1.5; }
+  .p3 section [style*="font-size:12px"], .p3 section [style*="font-size: 12px"] { font-size: 14.5px !important; }
+}
 </style>
 <script src="analytics.js" defer></script>
 </head>
@@ -371,17 +409,5 @@ html, body { margin: 0; background: #e2e1db; font-family: 'Instrument Sans', sys
 </footer>
 </div>
 </div>
-<script>
-(function(){
-  var pages=document.querySelectorAll('.page');
-  function fit(){
-    var z=Math.min(1,(document.documentElement.clientWidth-16)/794);
-    for(var i=0;i<pages.length;i++){pages[i].style.zoom=z<1?z:'';}
-  }
-  fit(); window.addEventListener('resize',fit);
-  window.addEventListener('beforeprint',function(){for(var i=0;i<pages.length;i++){pages[i].style.zoom='';}});
-  window.addEventListener('afterprint',fit);
-})();
-</script>
 </body>
 </html>
